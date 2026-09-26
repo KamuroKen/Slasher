@@ -1,23 +1,37 @@
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 
-// Add this to a future enemy's root, with a Collider2D on it or a child.
 public sealed class Damageable : MonoBehaviour
 {
     [SerializeField, Min(1)] private int maxHealth = 100;
-    [SerializeField] private UnityEvent onDamaged = new UnityEvent();
-    [SerializeField] private UnityEvent onDeath = new UnityEvent();
+    [SerializeField, Min(0f)] private float invulnerabilityDuration;
+    [SerializeField] private int currentHealth;
 
-    public int CurrentHealth { get; private set; }
+    private float invulnerableUntil;
+    public event Action<Vector2> Damaged;
+    public event Action Died;
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+    public float InvulnerabilityDuration { get => invulnerabilityDuration; set => invulnerabilityDuration = Mathf.Max(0f, value); }
+    public bool IsInvulnerable => Time.time < invulnerableUntil;
     public bool IsDead => CurrentHealth <= 0;
 
-    private void Awake() => CurrentHealth = maxHealth;
+    private void Awake() => currentHealth = maxHealth;
 
-    public void TakeDamage(int amount)
+    public bool TryTakeDamage(int amount, Vector2 sourcePosition)
     {
-        if (amount <= 0 || IsDead) return;
-        CurrentHealth = Mathf.Max(0, CurrentHealth - amount);
-        onDamaged.Invoke();
-        if (IsDead) onDeath.Invoke();
+        if (!isActiveAndEnabled || amount <= 0 || IsDead || IsInvulnerable) return false;
+        currentHealth = Mathf.Max(0, currentHealth - amount);
+        invulnerableUntil = Time.time + invulnerabilityDuration;
+        // A lethal hit goes straight to death: no hit animation can override it.
+        if (IsDead)
+        {
+            Died?.Invoke();
+        }
+        else
+        {
+            Damaged?.Invoke(sourcePosition);
+        }
+        return true;
     }
 }

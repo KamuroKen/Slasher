@@ -119,6 +119,68 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &478608637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1976006469}
+    m_Modifications:
+    - target: {fileID: 6688158943671032703, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_Name
+      value: Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+--- !u!4 &478608638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9143528699094789185, guid: 60d77c46d17419c4eb89eb438705eb67, type: 3}
+  m_PrefabInstance: {fileID: 478608637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &522163576
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,8 +288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCamera
   target: {fileID: 4347759641171158451}
-  arenaMin: {x: -16, y: -10}
-  arenaMax: {x: 16, y: 10}
 --- !u!114 &522163581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561257513}
   - component: {fileID: 561257512}
+  - component: {fileID: 561257514}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -317,6 +378,20 @@ Transform:
   - {fileID: 1690224022}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &561257514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561257511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb391daabe9265642a2255a22fa0b9e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaBounds
+  min: {x: -16, y: -10}
+  max: {x: 16, y: 10}
 --- !u!1 &1690224021
 GameObject:
   m_ObjectHideFlags: 0
@@ -6872,6 +6947,38 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1976006468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976006469}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1976006469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976006468}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 478608638}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1117213770031312970
 SpriteRenderer:
   serializedVersion: 2
@@ -6994,6 +7101,11 @@ GameObject:
   - component: {fileID: 6043129195778385871}
   - component: {fileID: 1537801983968713166}
   - component: {fileID: 3965193144916825786}
+  - component: {fileID: 6043129195778385874}
+  - component: {fileID: 6043129195778385873}
+  - component: {fileID: 6043129195778385872}
+  - component: {fileID: 6043129195778385876}
+  - component: {fileID: 6043129195778385875}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7014,14 +7126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
-  arenaMin: {x: -15.5, y: -9.5}
-  arenaMax: {x: 15.5, y: 9.5}
-  swordDamage: 20
-  swordReach: 0.85
-  swordRadius: 0.6
-  damageLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  boundaryInset: 0.5
 --- !u!4 &4347759641171158451
 Transform:
   m_ObjectHideFlags: 0
@@ -7074,6 +7179,81 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.15}
   m_Size: {x: 0.65, y: 0.35}
   m_Direction: 1
+--- !u!114 &6043129195778385872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932770843539293863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbabcb851e9e201479a9912f3c694a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  invulnerabilitySeconds: 0.5
+  hurtSeconds: 0.2
+  flashSeconds: 0.12
+--- !u!114 &6043129195778385873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932770843539293863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee335fc8505dcd544bc0eac1bb0c58b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteHitFlash
+--- !u!114 &6043129195778385874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932770843539293863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ecda876dadc34439e9500c3e4a72fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Damageable
+  maxHealth: 100
+  invulnerabilityDuration: 0
+  currentHealth: 0
+--- !u!114 &6043129195778385875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932770843539293863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c3cf9da387ef14fa496dc12caba4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthDisplay
+--- !u!114 &6043129195778385876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932770843539293863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934c92a5823ec1c4795d8142ca3b7175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  swordDamage: 20
+  swordReach: 0.85
+  swordRadius: 0.6
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  duration: 0.75
+  hitStart: 0.33333334
+  hitEnd: 0.5833333
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7081,3 +7261,4 @@ SceneRoots:
   - {fileID: 522163579}
   - {fileID: 561257513}
   - {fileID: 4347759641171158451}
+  - {fileID: 1976006469}

@@ -1,43 +1,44 @@
-# Unity-generated data and local editor settings
+# --- Unity ---
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
 /[Bb]uild/
 /[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
-/[Rr]ecordings/
-
-# IDE-generated files
-/.idea/
-/.vs/
-/.vscode/
+.vs/
+.vscode/
+.idea/
 *.csproj
 *.sln
-*.slnx
 *.suo
 *.user
-*.userprefs
 *.pidb
-*.booproj
-*.opendb
-*.VC.db
 *.pdb
 *.mdb
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
-
-# Crash reports and exported builds
-/sysinfo.txt
+*.opendb
+*.VC.db
 *.apk
 *.aab
 *.unitypackage
 
-# Operating-system files
+# --- сміття з ОС ---
 .DS_Store
+.DS_Store.meta
 Thumbs.db
-Desktop.ini
+**/__MACOSX/
+**/__MACOSX.meta
 
-# Keep Assets (including .meta), Packages, and ProjectSettings tracked.
+# --- непотрібне з паків ---
+**/RPG Maker/
+**/RPG Maker.meta
+**/PSD/
+**/PSD.meta
+*.psd
+*.psd.meta
+**/COUPON*
+**/32x32/
+**/32x32.meta
+**/48x48/
+**/48x48.meta

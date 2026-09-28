@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 0824efe2ccb693b44ba38d4bb54e9907
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1416708196812680683
+    second: CaptainB-BlockS_62x68_Sheet_0
+  - first:
+      213: 771587151569473841
+    second: CaptainB-BlockS_62x68_Sheet_1
+  - first:
+      213: -6709800406920281514
+    second: CaptainB-BlockS_62x68_Sheet_2
+  - first:
+      213: -4038755924325735175
+    second: CaptainB-BlockS_62x68_Sheet_3
+  - first:
+      213: 1312629170036494086
+    second: CaptainB-BlockS_62x68_Sheet_4
+  - first:
+      213: 987576961314885059
+    second: CaptainB-BlockS_62x68_Sheet_5
+  - first:
+      213: -7868253395036446747
+    second: CaptainB-BlockS_62x68_Sheet_6
+  - first:
+      213: 5128024809683320431
+    second: CaptainB-BlockS_62x68_Sheet_7
+  - first:
+      213: -3277350832660501409
+    second: CaptainB-BlockS_62x68_Sheet_8
+  - first:
+      213: -7171514290058348778
+    second: CaptainB-BlockS_62x68_Sheet_9
+  - first:
+      213: 4639349327894724817
+    second: CaptainB-BlockS_62x68_Sheet_10
+  - first:
+      213: -8854090042151789335
+    second: CaptainB-BlockS_62x68_Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed6765599829a310800000000000000
+      internalID: 1416708196812680683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 14
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131dd822d6a35ba00800000000000000
+      internalID: 771587151569473841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 14
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652ceb7741002e2a0800000000000000
+      internalID: -6709800406920281514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 13
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f46f0492e473f7c0800000000000000
+      internalID: -4038755924325735175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 14
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f47d98645673210800000000000000
+      internalID: 1312629170036494086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 14
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd888f830494bd00800000000000000
+      internalID: 987576961314885059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 14
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef571a99395ec290800000000000000
+      internalID: -7868253395036446747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 14
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e709c15676a2740800000000000000
+      internalID: 5128024809683320431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 16
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ca0f628c28482d0800000000000000
+      internalID: -3277350832660501409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 14
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6173f6fdfb9a97c90800000000000000
+      internalID: -7171514290058348778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 14
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0cc1622a7426040800000000000000
+      internalID: 4639349327894724817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-BlockS_62x68_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 14
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec18348404ff1580800000000000000
+      internalID: -8854090042151789335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CaptainB-BlockS_62x68_Sheet_0: 1416708196812680683
+      CaptainB-BlockS_62x68_Sheet_1: 771587151569473841
+      CaptainB-BlockS_62x68_Sheet_10: 4639349327894724817
+      CaptainB-BlockS_62x68_Sheet_11: -8854090042151789335
+      CaptainB-BlockS_62x68_Sheet_2: -6709800406920281514
+      CaptainB-BlockS_62x68_Sheet_3: -4038755924325735175
+      CaptainB-BlockS_62x68_Sheet_4: 1312629170036494086
+      CaptainB-BlockS_62x68_Sheet_5: 987576961314885059
+      CaptainB-BlockS_62x68_Sheet_6: -7868253395036446747
+      CaptainB-BlockS_62x68_Sheet_7: 5128024809683320431
+      CaptainB-BlockS_62x68_Sheet_8: -3277350832660501409
+      CaptainB-BlockS_62x68_Sheet_9: -7171514290058348778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

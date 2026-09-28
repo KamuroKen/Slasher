@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 6663092543b4105479dbb2dc08b3b710
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3263311259103956914
+    second: Common-RebornNE_60x57_Sheet_0
+  - first:
+      213: 5536781526065486566
+    second: Common-RebornNE_60x57_Sheet_1
+  - first:
+      213: 5828390275506581925
+    second: Common-RebornNE_60x57_Sheet_2
+  - first:
+      213: 4065177005243746121
+    second: Common-RebornNE_60x57_Sheet_3
+  - first:
+      213: 7059764711651701997
+    second: Common-RebornNE_60x57_Sheet_4
+  - first:
+      213: 4052659419745448790
+    second: Common-RebornNE_60x57_Sheet_5
+  - first:
+      213: 1505381063472354201
+    second: Common-RebornNE_60x57_Sheet_6
+  - first:
+      213: 4126215894720809803
+    second: Common-RebornNE_60x57_Sheet_7
+  - first:
+      213: -601303759652283624
+    second: Common-RebornNE_60x57_Sheet_8
+  - first:
+      213: 725831669694596618
+    second: Common-RebornNE_60x57_Sheet_9
+  - first:
+      213: -4005544319771237194
+    second: Common-RebornNE_60x57_Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40739913b366b2d0800000000000000
+      internalID: -3263311259103956914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea141c767996dc40800000000000000
+      internalID: 5536781526065486566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 12
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a139ef431a92e050800000000000000
+      internalID: 5828390275506581925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 17
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947c3a2b2f86a6830800000000000000
+      internalID: 4065177005243746121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 15
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de476dbd99259f160800000000000000
+      internalID: 7059764711651701997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65371953540fd3830800000000000000
+      internalID: 4052659419745448790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939ed3f91034e410800000000000000
+      internalID: 1505381063472354201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 14
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b876f9e73434930800000000000000
+      internalID: 4126215894720809803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 14
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b91db9a6db7a7f0800000000000000
+      internalID: -601303759652283624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 14
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0600e6de0ca21a00800000000000000
+      internalID: 725831669694596618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-RebornNE_60x57_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 14
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4a3f7d9a27968c0800000000000000
+      internalID: -4005544319771237194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Common-RebornNE_60x57_Sheet_0: -3263311259103956914
+      Common-RebornNE_60x57_Sheet_1: 5536781526065486566
+      Common-RebornNE_60x57_Sheet_10: -4005544319771237194
+      Common-RebornNE_60x57_Sheet_2: 5828390275506581925
+      Common-RebornNE_60x57_Sheet_3: 4065177005243746121
+      Common-RebornNE_60x57_Sheet_4: 7059764711651701997
+      Common-RebornNE_60x57_Sheet_5: 4052659419745448790
+      Common-RebornNE_60x57_Sheet_6: 1505381063472354201
+      Common-RebornNE_60x57_Sheet_7: 4126215894720809803
+      Common-RebornNE_60x57_Sheet_8: -601303759652283624
+      Common-RebornNE_60x57_Sheet_9: 725831669694596618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

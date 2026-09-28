@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 75a716aa48ab6344488286825688dd15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2997556645273153433
+    second: Necromancer_SummoingN_61x69_Sheet_0
+  - first:
+      213: -3482551111932591920
+    second: Necromancer_SummoingN_61x69_Sheet_1
+  - first:
+      213: -5709999726388912409
+    second: Necromancer_SummoingN_61x69_Sheet_2
+  - first:
+      213: -8819933205177543644
+    second: Necromancer_SummoingN_61x69_Sheet_3
+  - first:
+      213: 5580988759552637148
+    second: Necromancer_SummoingN_61x69_Sheet_4
+  - first:
+      213: -8712901654673795578
+    second: Necromancer_SummoingN_61x69_Sheet_5
+  - first:
+      213: -2588479123024959557
+    second: Necromancer_SummoingN_61x69_Sheet_6
+  - first:
+      213: 2198752018557250642
+    second: Necromancer_SummoingN_61x69_Sheet_7
+  - first:
+      213: 4588383359678365333
+    second: Necromancer_SummoingN_61x69_Sheet_8
+  - first:
+      213: -1286555657443291459
+    second: Necromancer_SummoingN_61x69_Sheet_9
+  - first:
+      213: 2187461372981325232
+    second: Necromancer_SummoingN_61x69_Sheet_10
+  - first:
+      213: -5900124428734421634
+    second: Necromancer_SummoingN_61x69_Sheet_11
+  - first:
+      213: -5363208432714203041
+    second: Necromancer_SummoingN_61x69_Sheet_12
+  - first:
+      213: -7610317058670911821
+    second: Necromancer_SummoingN_61x69_Sheet_13
+  - first:
+      213: 875663493134543949
+    second: Necromancer_SummoingN_61x69_Sheet_14
+  - first:
+      213: 1462648533747840424
+    second: Necromancer_SummoingN_61x69_Sheet_15
+  - first:
+      213: -7061995620406418094
+    second: Necromancer_SummoingN_61x69_Sheet_16
+  - first:
+      213: 6813554291814373706
+    second: Necromancer_SummoingN_61x69_Sheet_17
+  - first:
+      213: 5414129227820510219
+    second: Necromancer_SummoingN_61x69_Sheet_18
+  - first:
+      213: 2107267223482887798
+    second: Necromancer_SummoingN_61x69_Sheet_19
+  - first:
+      213: 4863508442246288547
+    second: Necromancer_SummoingN_61x69_Sheet_20
+  - first:
+      213: -3351681105935968815
+    second: Necromancer_SummoingN_61x69_Sheet_21
+  - first:
+      213: -6280189463525976318
+    second: Necromancer_SummoingN_61x69_Sheet_22
+  - first:
+      213: 6069827173432490366
+    second: Necromancer_SummoingN_61x69_Sheet_23
+  - first:
+      213: 2658587557203199748
+    second: Necromancer_SummoingN_61x69_Sheet_24
+  - first:
+      213: 3999618625968798838
+    second: Necromancer_SummoingN_61x69_Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 8
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f2e9b13e5799920800000000000000
+      internalID: 2997556645273153433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0cd1d073e7bafc0800000000000000
+      internalID: -3482551111932591920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 8
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eed201708102c0b0800000000000000
+      internalID: -5709999726388912409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 8
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42458bada7d499580800000000000000
+      internalID: -8819933205177543644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8359c15b7a37d40800000000000000
+      internalID: 5580988759552637148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6065146ab1e851780800000000000000
+      internalID: -8712901654673795578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 8
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb72593b3ffd31cd0800000000000000
+      internalID: -2588479123024959557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 8
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c2747bf49838e10800000000000000
+      internalID: 2198752018557250642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e31f6fa563daf30800000000000000
+      internalID: 4588383359678365333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec25e227c352ee0800000000000000
+      internalID: -1286555657443291459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bda070778c6b5e10800000000000000
+      internalID: 2187461372981325232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e752eae971c8e1ea0800000000000000
+      internalID: -5900124428734421634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50c0bf885e0295b0800000000000000
+      internalID: -5363208432714203041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 8
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be13d1d4f8b26690800000000000000
+      internalID: -7610317058670911821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 8
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cef0bbe4bf62c00800000000000000
+      internalID: 875663493134543949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 8
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5394d871f5c4410800000000000000
+      internalID: 1462648533747840424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 8
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255af483660cefd90800000000000000
+      internalID: -7061995620406418094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a491f65578b9e8e50800000000000000
+      internalID: 6813554291814373706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c2d40f8d9d22b40800000000000000
+      internalID: 5414129227820510219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e658eff548e3d10800000000000000
+      internalID: 2107267223482887798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a414360927ae7340800000000000000
+      internalID: 4863508442246288547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d55c48cacf6c71d0800000000000000
+      internalID: -3351681105935968815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2071260f4f848d8a0800000000000000
+      internalID: -6280189463525976318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f478a7ab5c3450800000000000000
+      internalID: 6069827173432490366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407ce572c4335e420800000000000000
+      internalID: 2658587557203199748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_SummoingN_61x69_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 8
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cf7ed03ff718730800000000000000
+      internalID: 3999618625968798838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Necromancer_SummoingN_61x69_Sheet_0: 2997556645273153433
+      Necromancer_SummoingN_61x69_Sheet_1: -3482551111932591920
+      Necromancer_SummoingN_61x69_Sheet_10: 2187461372981325232
+      Necromancer_SummoingN_61x69_Sheet_11: -5900124428734421634
+      Necromancer_SummoingN_61x69_Sheet_12: -5363208432714203041
+      Necromancer_SummoingN_61x69_Sheet_13: -7610317058670911821
+      Necromancer_SummoingN_61x69_Sheet_14: 875663493134543949
+      Necromancer_SummoingN_61x69_Sheet_15: 1462648533747840424
+      Necromancer_SummoingN_61x69_Sheet_16: -7061995620406418094
+      Necromancer_SummoingN_61x69_Sheet_17: 6813554291814373706
+      Necromancer_SummoingN_61x69_Sheet_18: 5414129227820510219
+      Necromancer_SummoingN_61x69_Sheet_19: 2107267223482887798
+      Necromancer_SummoingN_61x69_Sheet_2: -5709999726388912409
+      Necromancer_SummoingN_61x69_Sheet_20: 4863508442246288547
+      Necromancer_SummoingN_61x69_Sheet_21: -3351681105935968815
+      Necromancer_SummoingN_61x69_Sheet_22: -6280189463525976318
+      Necromancer_SummoingN_61x69_Sheet_23: 6069827173432490366
+      Necromancer_SummoingN_61x69_Sheet_24: 2658587557203199748
+      Necromancer_SummoingN_61x69_Sheet_25: 3999618625968798838
+      Necromancer_SummoingN_61x69_Sheet_3: -8819933205177543644
+      Necromancer_SummoingN_61x69_Sheet_4: 5580988759552637148
+      Necromancer_SummoingN_61x69_Sheet_5: -8712901654673795578
+      Necromancer_SummoingN_61x69_Sheet_6: -2588479123024959557
+      Necromancer_SummoingN_61x69_Sheet_7: 2198752018557250642
+      Necromancer_SummoingN_61x69_Sheet_8: 4588383359678365333
+      Necromancer_SummoingN_61x69_Sheet_9: -1286555657443291459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

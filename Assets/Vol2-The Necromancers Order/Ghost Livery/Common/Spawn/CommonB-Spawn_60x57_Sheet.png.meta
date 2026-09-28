@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 6ce00f00c5976a74383964e601399b18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7049462077399330414
+    second: CommonB-Spawn_60x57_Sheet_0
+  - first:
+      213: -9067772797170624079
+    second: CommonB-Spawn_60x57_Sheet_1
+  - first:
+      213: -8288277816418834260
+    second: CommonB-Spawn_60x57_Sheet_2
+  - first:
+      213: -3411246386600430967
+    second: CommonB-Spawn_60x57_Sheet_3
+  - first:
+      213: 3101089410582930785
+    second: CommonB-Spawn_60x57_Sheet_4
+  - first:
+      213: 2239607794892930272
+    second: CommonB-Spawn_60x57_Sheet_5
+  - first:
+      213: 6686753744379016263
+    second: CommonB-Spawn_60x57_Sheet_6
+  - first:
+      213: 6217567533873429638
+    second: CommonB-Spawn_60x57_Sheet_7
+  - first:
+      213: -5835525532928773243
+    second: CommonB-Spawn_60x57_Sheet_8
+  - first:
+      213: 4075584688683306390
+    second: CommonB-Spawn_60x57_Sheet_9
+  - first:
+      213: -8528562226200995901
+    second: CommonB-Spawn_60x57_Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 13
+        width: 134
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291960b17974b2e90800000000000000
+      internalID: -7049462077399330414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 11
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9d1b02facc82280800000000000000
+      internalID: -9067772797170624079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 10
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8ea983d3f1afc80800000000000000
+      internalID: -8288277816418834260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 11
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982b8552c71d8a0d0800000000000000
+      internalID: -3411246386600430967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 22
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165658e7368490b20800000000000000
+      internalID: 3101089410582930785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 13
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecf9ca6c6fa41f10800000000000000
+      internalID: 2239607794892930272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 14
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74479324a1f1ccc50800000000000000
+      internalID: 6686753744379016263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 17
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cf68fdabc394650800000000000000
+      internalID: 6217567533873429638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 15
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583fe0c127c040fa0800000000000000
+      internalID: -5835525532928773243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 15
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d4df45ea26f8830800000000000000
+      internalID: 4075584688683306390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonB-Spawn_60x57_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 15
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7997e67d574a980800000000000000
+      internalID: -8528562226200995901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CommonB-Spawn_60x57_Sheet_0: -7049462077399330414
+      CommonB-Spawn_60x57_Sheet_1: -9067772797170624079
+      CommonB-Spawn_60x57_Sheet_10: -8528562226200995901
+      CommonB-Spawn_60x57_Sheet_2: -8288277816418834260
+      CommonB-Spawn_60x57_Sheet_3: -3411246386600430967
+      CommonB-Spawn_60x57_Sheet_4: 3101089410582930785
+      CommonB-Spawn_60x57_Sheet_5: 2239607794892930272
+      CommonB-Spawn_60x57_Sheet_6: 6686753744379016263
+      CommonB-Spawn_60x57_Sheet_7: 6217567533873429638
+      CommonB-Spawn_60x57_Sheet_8: -5835525532928773243
+      CommonB-Spawn_60x57_Sheet_9: 4075584688683306390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

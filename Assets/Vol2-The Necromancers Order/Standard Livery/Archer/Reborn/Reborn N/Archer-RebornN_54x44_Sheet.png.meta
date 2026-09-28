@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: d32c9a137daa6d444966c88e3b4853da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4692587161645486474
+    second: Archer-RebornN_54x44_Sheet_0
+  - first:
+      213: -4831086829558740081
+    second: Archer-RebornN_54x44_Sheet_1
+  - first:
+      213: 7553846189505878303
+    second: Archer-RebornN_54x44_Sheet_2
+  - first:
+      213: -6500019011065799451
+    second: Archer-RebornN_54x44_Sheet_3
+  - first:
+      213: -8591976769974027246
+    second: Archer-RebornN_54x44_Sheet_4
+  - first:
+      213: -1456999258740557469
+    second: Archer-RebornN_54x44_Sheet_5
+  - first:
+      213: 2580086675416070645
+    second: Archer-RebornN_54x44_Sheet_6
+  - first:
+      213: 3775064027836699010
+    second: Archer-RebornN_54x44_Sheet_7
+  - first:
+      213: 5946802582044303755
+    second: Archer-RebornN_54x44_Sheet_8
+  - first:
+      213: 7484616280892965424
+    second: Archer-RebornN_54x44_Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eef80c6d490eeb0800000000000000
+      internalID: -4692587161645486474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 30
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b451def1884fcb0800000000000000
+      internalID: -4831086829558740081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 7
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f199f6d5617a4d860800000000000000
+      internalID: 7553846189505878303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec1324e52b4bc5a0800000000000000
+      internalID: -6500019011065799451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c3a4366aa23c880800000000000000
+      internalID: -8591976769974027246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369f2c8c4e2b7cbe0800000000000000
+      internalID: -1456999258740557469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9b4e1592f4ec320800000000000000
+      internalID: 2580086675416070645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281df8f6bb8b36430800000000000000
+      internalID: 3775064027836699010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 49
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81602cd079478250800000000000000
+      internalID: 5946802582044303755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-RebornN_54x44_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0320bbe2ad2bed760800000000000000
+      internalID: 7484616280892965424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archer-RebornN_54x44_Sheet_0: -4692587161645486474
+      Archer-RebornN_54x44_Sheet_1: -4831086829558740081
+      Archer-RebornN_54x44_Sheet_2: 7553846189505878303
+      Archer-RebornN_54x44_Sheet_3: -6500019011065799451
+      Archer-RebornN_54x44_Sheet_4: -8591976769974027246
+      Archer-RebornN_54x44_Sheet_5: -1456999258740557469
+      Archer-RebornN_54x44_Sheet_6: 2580086675416070645
+      Archer-RebornN_54x44_Sheet_7: 3775064027836699010
+      Archer-RebornN_54x44_Sheet_8: 5946802582044303755
+      Archer-RebornN_54x44_Sheet_9: 7484616280892965424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

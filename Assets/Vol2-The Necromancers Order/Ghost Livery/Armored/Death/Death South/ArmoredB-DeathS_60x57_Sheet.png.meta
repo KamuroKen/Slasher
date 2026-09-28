@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: d663e2d8f6963a9418d97b9f720563df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3718554329439597194
+    second: ArmoredB-DeathS_60x57_Sheet_0
+  - first:
+      213: 2407187547554526727
+    second: ArmoredB-DeathS_60x57_Sheet_1
+  - first:
+      213: -3129845731254606062
+    second: ArmoredB-DeathS_60x57_Sheet_2
+  - first:
+      213: -5483249982993675354
+    second: ArmoredB-DeathS_60x57_Sheet_3
+  - first:
+      213: 4814815052581308258
+    second: ArmoredB-DeathS_60x57_Sheet_4
+  - first:
+      213: 3776214957931848741
+    second: ArmoredB-DeathS_60x57_Sheet_5
+  - first:
+      213: -8770946628872480924
+    second: ArmoredB-DeathS_60x57_Sheet_6
+  - first:
+      213: -6260660482391251510
+    second: ArmoredB-DeathS_60x57_Sheet_7
+  - first:
+      213: -4318744017732866259
+    second: ArmoredB-DeathS_60x57_Sheet_8
+  - first:
+      213: -3865938057860001643
+    second: ArmoredB-DeathS_60x57_Sheet_9
+  - first:
+      213: 7900890869100883366
+    second: ArmoredB-DeathS_60x57_Sheet_10
+  - first:
+      213: 3339941626865082002
+    second: ArmoredB-DeathS_60x57_Sheet_11
+  - first:
+      213: 4274308317218764448
+    second: ArmoredB-DeathS_60x57_Sheet_12
+  - first:
+      213: 596696938523924590
+    second: ArmoredB-DeathS_60x57_Sheet_13
+  - first:
+      213: 744612330840204835
+    second: ArmoredB-DeathS_60x57_Sheet_14
+  - first:
+      213: 6420902139149100319
+    second: ArmoredB-DeathS_60x57_Sheet_15
+  - first:
+      213: 8915905095060589422
+    second: ArmoredB-DeathS_60x57_Sheet_16
+  - first:
+      213: 7021730892261797756
+    second: ArmoredB-DeathS_60x57_Sheet_17
+  - first:
+      213: -1359161337730093592
+    second: ArmoredB-DeathS_60x57_Sheet_18
+  - first:
+      213: -2251945606251669057
+    second: ArmoredB-DeathS_60x57_Sheet_19
+  - first:
+      213: -1156467554795023249
+    second: ArmoredB-DeathS_60x57_Sheet_20
+  - first:
+      213: -6360249687259136371
+    second: ArmoredB-DeathS_60x57_Sheet_21
+  - first:
+      213: -603512146956449223
+    second: ArmoredB-DeathS_60x57_Sheet_22
+  - first:
+      213: 1443516407361514493
+    second: ArmoredB-DeathS_60x57_Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82fc3cf575fa9330800000000000000
+      internalID: 3718554329439597194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7063bb7125c086120800000000000000
+      internalID: 2407187547554526727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 17
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217ebcad3ed8094d0800000000000000
+      internalID: -3129845731254606062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 16
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abcef4213597e3b0800000000000000
+      internalID: -5483249982993675354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 17
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2670054c7c8a1d240800000000000000
+      internalID: 4814815052581308258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 33
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5246b0b3f7fc76430800000000000000
+      internalID: 3776214957931848741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 14
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4675522f286574680800000000000000
+      internalID: -8770946628872480924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 34
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac56ebf267aad19a0800000000000000
+      internalID: -6260660482391251510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 13
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f6033923db014c0800000000000000
+      internalID: -4318744017732866259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 17
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5905799a1dd695ac0800000000000000
+      internalID: -3865938057860001643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 14
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ada2ed726a95ad60800000000000000
+      internalID: 7900890869100883366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 11
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e55dfb63bd95e20800000000000000
+      internalID: 3339941626865082002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6725ca4c4615b30800000000000000
+      internalID: 4274308317218764448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 13
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68184344b4e74800800000000000000
+      internalID: 596696938523924590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3262b1348f4655a00800000000000000
+      internalID: 744612330840204835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 10
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f152785e970ab1950800000000000000
+      internalID: 6420902139149100319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 19
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b8e2a0278abbb70800000000000000
+      internalID: 8915905095060589422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fa6a53b03327160800000000000000
+      internalID: 7021730892261797756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 11
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed2728e6f9432de0800000000000000
+      internalID: -1359161337730093592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 14
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb91ed5076b7fb0e0800000000000000
+      internalID: -2251945606251669057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 10
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f649d2ad2e663ffe0800000000000000
+      internalID: -1156467554795023249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 10
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e31248b9adbb7a0800000000000000
+      internalID: -6360249687259136371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 10
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a070f56e4ef97f0800000000000000
+      internalID: -603512146956449223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmoredB-DeathS_60x57_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 10
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb2b304686680410800000000000000
+      internalID: 1443516407361514493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ArmoredB-DeathS_60x57_Sheet_0: 3718554329439597194
+      ArmoredB-DeathS_60x57_Sheet_1: 2407187547554526727
+      ArmoredB-DeathS_60x57_Sheet_10: 7900890869100883366
+      ArmoredB-DeathS_60x57_Sheet_11: 3339941626865082002
+      ArmoredB-DeathS_60x57_Sheet_12: 4274308317218764448
+      ArmoredB-DeathS_60x57_Sheet_13: 596696938523924590
+      ArmoredB-DeathS_60x57_Sheet_14: 744612330840204835
+      ArmoredB-DeathS_60x57_Sheet_15: 6420902139149100319
+      ArmoredB-DeathS_60x57_Sheet_16: 8915905095060589422
+      ArmoredB-DeathS_60x57_Sheet_17: 7021730892261797756
+      ArmoredB-DeathS_60x57_Sheet_18: -1359161337730093592
+      ArmoredB-DeathS_60x57_Sheet_19: -2251945606251669057
+      ArmoredB-DeathS_60x57_Sheet_2: -3129845731254606062
+      ArmoredB-DeathS_60x57_Sheet_20: -1156467554795023249
+      ArmoredB-DeathS_60x57_Sheet_21: -6360249687259136371
+      ArmoredB-DeathS_60x57_Sheet_22: -603512146956449223
+      ArmoredB-DeathS_60x57_Sheet_23: 1443516407361514493
+      ArmoredB-DeathS_60x57_Sheet_3: -5483249982993675354
+      ArmoredB-DeathS_60x57_Sheet_4: 4814815052581308258
+      ArmoredB-DeathS_60x57_Sheet_5: 3776214957931848741
+      ArmoredB-DeathS_60x57_Sheet_6: -8770946628872480924
+      ArmoredB-DeathS_60x57_Sheet_7: -6260660482391251510
+      ArmoredB-DeathS_60x57_Sheet_8: -4318744017732866259
+      ArmoredB-DeathS_60x57_Sheet_9: -3865938057860001643
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

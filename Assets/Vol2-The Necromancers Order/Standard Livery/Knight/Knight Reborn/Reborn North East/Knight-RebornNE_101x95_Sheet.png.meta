@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 7596cd0fde3ce044982820aac1d6ef2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8028845261767509103
+    second: Knight-RebornNE_101x95_Sheet_0
+  - first:
+      213: -3921356411715058637
+    second: Knight-RebornNE_101x95_Sheet_1
+  - first:
+      213: -901817820384504863
+    second: Knight-RebornNE_101x95_Sheet_2
+  - first:
+      213: 2833518003231563189
+    second: Knight-RebornNE_101x95_Sheet_3
+  - first:
+      213: -5823352620252483798
+    second: Knight-RebornNE_101x95_Sheet_4
+  - first:
+      213: -2156749300698104870
+    second: Knight-RebornNE_101x95_Sheet_5
+  - first:
+      213: 5582081628387339283
+    second: Knight-RebornNE_101x95_Sheet_6
+  - first:
+      213: -6126855426527214931
+    second: Knight-RebornNE_101x95_Sheet_7
+  - first:
+      213: 2717279366858986175
+    second: Knight-RebornNE_101x95_Sheet_8
+  - first:
+      213: 5548416144549680375
+    second: Knight-RebornNE_101x95_Sheet_9
+  - first:
+      213: -8108126193495813268
+    second: Knight-RebornNE_101x95_Sheet_10
+  - first:
+      213: 3225743225869922953
+    second: Knight-RebornNE_101x95_Sheet_11
+  - first:
+      213: -7103691486511487719
+    second: Knight-RebornNE_101x95_Sheet_12
+  - first:
+      213: 2713511659813054785
+    second: Knight-RebornNE_101x95_Sheet_13
+  - first:
+      213: -2592465464636363466
+    second: Knight-RebornNE_101x95_Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 50
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f640b381a303c6f60800000000000000
+      internalID: 8028845261767509103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 30
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334060aae1b8499c0800000000000000
+      internalID: -3921356411715058637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 35
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e35ddb68791c73f0800000000000000
+      internalID: -901817820384504863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 33
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd9a4f7c9da25720800000000000000
+      internalID: 2833518003231563189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 21
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fa20435ab4f2fa0800000000000000
+      internalID: -5823352620252483798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 21
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb315e10ffa112e0800000000000000
+      internalID: -2156749300698104870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 21
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ce2477aa9877d40800000000000000
+      internalID: 5582081628387339283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 21
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2cba7737909faa0800000000000000
+      internalID: -6126855426527214931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2d029ff27b5b520800000000000000
+      internalID: 2717279366858986175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f41de1361feffc40800000000000000
+      internalID: 5548416144549680375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 11
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6354aa8f262a7f80800000000000000
+      internalID: -8108126193495813268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 20
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982799a8f5424cc20800000000000000
+      internalID: 3225743225869922953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 16
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9152480ea3e9a6d90800000000000000
+      internalID: -7103691486511487719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 21
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149a9015a7458a520800000000000000
+      internalID: 2713511659813054785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-RebornNE_101x95_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 29
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63da1e73566b50cd0800000000000000
+      internalID: -2592465464636363466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight-RebornNE_101x95_Sheet_0: 8028845261767509103
+      Knight-RebornNE_101x95_Sheet_1: -3921356411715058637
+      Knight-RebornNE_101x95_Sheet_10: -8108126193495813268
+      Knight-RebornNE_101x95_Sheet_11: 3225743225869922953
+      Knight-RebornNE_101x95_Sheet_12: -7103691486511487719
+      Knight-RebornNE_101x95_Sheet_13: 2713511659813054785
+      Knight-RebornNE_101x95_Sheet_14: -2592465464636363466
+      Knight-RebornNE_101x95_Sheet_2: -901817820384504863
+      Knight-RebornNE_101x95_Sheet_3: 2833518003231563189
+      Knight-RebornNE_101x95_Sheet_4: -5823352620252483798
+      Knight-RebornNE_101x95_Sheet_5: -2156749300698104870
+      Knight-RebornNE_101x95_Sheet_6: 5582081628387339283
+      Knight-RebornNE_101x95_Sheet_7: -6126855426527214931
+      Knight-RebornNE_101x95_Sheet_8: 2717279366858986175
+      Knight-RebornNE_101x95_Sheet_9: 5548416144549680375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

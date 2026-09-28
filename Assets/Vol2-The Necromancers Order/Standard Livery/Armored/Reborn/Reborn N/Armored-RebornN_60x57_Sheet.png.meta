@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 2f463eaebd2de9149ab79f8ff209e160
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3568313973919009497
+    second: Armored-RebornN_60x57_Sheet_0
+  - first:
+      213: 6661838085247754131
+    second: Armored-RebornN_60x57_Sheet_1
+  - first:
+      213: 5400677090576490667
+    second: Armored-RebornN_60x57_Sheet_2
+  - first:
+      213: 1326180662679007632
+    second: Armored-RebornN_60x57_Sheet_3
+  - first:
+      213: -1491288567167749903
+    second: Armored-RebornN_60x57_Sheet_4
+  - first:
+      213: 4011597518102158188
+    second: Armored-RebornN_60x57_Sheet_5
+  - first:
+      213: 2983482121187557082
+    second: Armored-RebornN_60x57_Sheet_6
+  - first:
+      213: 4891374416247523800
+    second: Armored-RebornN_60x57_Sheet_7
+  - first:
+      213: -1749195910364118968
+    second: Armored-RebornN_60x57_Sheet_8
+  - first:
+      213: 736230356644774353
+    second: Armored-RebornN_60x57_Sheet_9
+  - first:
+      213: -9222266266760977914
+    second: Armored-RebornN_60x57_Sheet_10
+  - first:
+      213: 2646455393355064192
+    second: Armored-RebornN_60x57_Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da418e47a2358130800000000000000
+      internalID: 3568313973919009497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 15
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f5c5e417a937c50800000000000000
+      internalID: 6661838085247754131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0e66a233f03fa40800000000000000
+      internalID: 5400677090576490667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 17
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09179fa494a876210800000000000000
+      internalID: 1326180662679007632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 15
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f07d5803f0ed4be0800000000000000
+      internalID: -1491288567167749903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 15
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b515830be0ca730800000000000000
+      internalID: 4011597518102158188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 15
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adefc1b9e25776920800000000000000
+      internalID: 2983482121187557082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 15
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d90edfad17a1e340800000000000000
+      internalID: 4891374416247523800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 13
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8404e20569b99b7e0800000000000000
+      internalID: -1749195910364118968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1cba0db9d973a00800000000000000
+      internalID: 736230356644774353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602e4a921bde30080800000000000000
+      internalID: -9222266266760977914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored-RebornN_60x57_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 10
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08368d2a8291ab420800000000000000
+      internalID: 2646455393355064192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Armored-RebornN_60x57_Sheet_0: 3568313973919009497
+      Armored-RebornN_60x57_Sheet_1: 6661838085247754131
+      Armored-RebornN_60x57_Sheet_10: -9222266266760977914
+      Armored-RebornN_60x57_Sheet_11: 2646455393355064192
+      Armored-RebornN_60x57_Sheet_2: 5400677090576490667
+      Armored-RebornN_60x57_Sheet_3: 1326180662679007632
+      Armored-RebornN_60x57_Sheet_4: -1491288567167749903
+      Armored-RebornN_60x57_Sheet_5: 4011597518102158188
+      Armored-RebornN_60x57_Sheet_6: 2983482121187557082
+      Armored-RebornN_60x57_Sheet_7: 4891374416247523800
+      Armored-RebornN_60x57_Sheet_8: -1749195910364118968
+      Armored-RebornN_60x57_Sheet_9: 736230356644774353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

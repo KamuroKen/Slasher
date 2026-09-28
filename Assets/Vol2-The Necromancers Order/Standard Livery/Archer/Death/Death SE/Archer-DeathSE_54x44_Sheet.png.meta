@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: dee0a6e1dc4edbc408082f9fd261ef3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3282313438467399001
+    second: Archer-DeathSE_54x44_Sheet_0
+  - first:
+      213: 3316153661689162289
+    second: Archer-DeathSE_54x44_Sheet_1
+  - first:
+      213: -3595949466663167277
+    second: Archer-DeathSE_54x44_Sheet_2
+  - first:
+      213: -6307893095164653077
+    second: Archer-DeathSE_54x44_Sheet_3
+  - first:
+      213: 3327491061860141557
+    second: Archer-DeathSE_54x44_Sheet_4
+  - first:
+      213: 1864090752655368913
+    second: Archer-DeathSE_54x44_Sheet_5
+  - first:
+      213: 35581538881435160
+    second: Archer-DeathSE_54x44_Sheet_6
+  - first:
+      213: 1712494885938893774
+    second: Archer-DeathSE_54x44_Sheet_7
+  - first:
+      213: 2570339984741514639
+    second: Archer-DeathSE_54x44_Sheet_8
+  - first:
+      213: 2869043525621435507
+    second: Archer-DeathSE_54x44_Sheet_9
+  - first:
+      213: -5510409926197681517
+    second: Archer-DeathSE_54x44_Sheet_10
+  - first:
+      213: 4209356599326922098
+    second: Archer-DeathSE_54x44_Sheet_11
+  - first:
+      213: 3336059878840798692
+    second: Archer-DeathSE_54x44_Sheet_12
+  - first:
+      213: -4578243111421284101
+    second: Archer-DeathSE_54x44_Sheet_13
+  - first:
+      213: 6355847065408685284
+    second: Archer-DeathSE_54x44_Sheet_14
+  - first:
+      213: -4451720259788870923
+    second: Archer-DeathSE_54x44_Sheet_15
+  - first:
+      213: -8930276001394742633
+    second: Archer-DeathSE_54x44_Sheet_16
+  - first:
+      213: -4963282155759115642
+    second: Archer-DeathSE_54x44_Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e8a27151e272d0800000000000000
+      internalID: -3282313438467399001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ae7918f28550e20800000000000000
+      internalID: 3316153661689162289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 5
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da5941230f981ec0800000000000000
+      internalID: -3595949466663167277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1529d86acd578a0800000000000000
+      internalID: -6307893095164653077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 3
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9067fad7f9d2e20800000000000000
+      internalID: 3327491061860141557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d22d15c9a49ed910800000000000000
+      internalID: 1864090752655368913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 24
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816f69998396e7000800000000000000
+      internalID: 35581538881435160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec39f0c860104c710800000000000000
+      internalID: 1712494885938893774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d308e099eaba320800000000000000
+      internalID: 2570339984741514639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ccccdb2e3e0d720800000000000000
+      internalID: 2869043525621435507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39263361e571783b0800000000000000
+      internalID: -5510409926197681517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275d3d36683aa6a30800000000000000
+      internalID: 4209356599326922098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed0dbbd8c01c4e20800000000000000
+      internalID: 3336059878840798692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fa509520d670c0800000000000000
+      internalID: -4578243111421284101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c4643b31843850800000000000000
+      internalID: 6355847065408685284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faefdb82005832c0800000000000000
+      internalID: -4451720259788870923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aaba69a49411480800000000000000
+      internalID: -8930276001394742633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer-DeathSE_54x44_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68261f90d21ee1bb0800000000000000
+      internalID: -4963282155759115642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archer-DeathSE_54x44_Sheet_0: -3282313438467399001
+      Archer-DeathSE_54x44_Sheet_1: 3316153661689162289
+      Archer-DeathSE_54x44_Sheet_10: -5510409926197681517
+      Archer-DeathSE_54x44_Sheet_11: 4209356599326922098
+      Archer-DeathSE_54x44_Sheet_12: 3336059878840798692
+      Archer-DeathSE_54x44_Sheet_13: -4578243111421284101
+      Archer-DeathSE_54x44_Sheet_14: 6355847065408685284
+      Archer-DeathSE_54x44_Sheet_15: -4451720259788870923
+      Archer-DeathSE_54x44_Sheet_16: -8930276001394742633
+      Archer-DeathSE_54x44_Sheet_17: -4963282155759115642
+      Archer-DeathSE_54x44_Sheet_2: -3595949466663167277
+      Archer-DeathSE_54x44_Sheet_3: -6307893095164653077
+      Archer-DeathSE_54x44_Sheet_4: 3327491061860141557
+      Archer-DeathSE_54x44_Sheet_5: 1864090752655368913
+      Archer-DeathSE_54x44_Sheet_6: 35581538881435160
+      Archer-DeathSE_54x44_Sheet_7: 1712494885938893774
+      Archer-DeathSE_54x44_Sheet_8: 2570339984741514639
+      Archer-DeathSE_54x44_Sheet_9: 2869043525621435507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

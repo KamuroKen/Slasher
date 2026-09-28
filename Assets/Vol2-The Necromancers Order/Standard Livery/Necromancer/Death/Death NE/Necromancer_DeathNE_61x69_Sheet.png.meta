@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 834e1b0d70a82724da6b9d19ca2a0040
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8136033666727227587
+    second: Necromancer_DeathNE_61x69_Sheet_0
+  - first:
+      213: 7788421764556259601
+    second: Necromancer_DeathNE_61x69_Sheet_1
+  - first:
+      213: 975808899229361579
+    second: Necromancer_DeathNE_61x69_Sheet_2
+  - first:
+      213: 3203235256086850828
+    second: Necromancer_DeathNE_61x69_Sheet_3
+  - first:
+      213: -5093701893133012240
+    second: Necromancer_DeathNE_61x69_Sheet_4
+  - first:
+      213: 3180124779432902031
+    second: Necromancer_DeathNE_61x69_Sheet_5
+  - first:
+      213: -513806262901532336
+    second: Necromancer_DeathNE_61x69_Sheet_6
+  - first:
+      213: 8948049725240482773
+    second: Necromancer_DeathNE_61x69_Sheet_7
+  - first:
+      213: 1072872637020661601
+    second: Necromancer_DeathNE_61x69_Sheet_8
+  - first:
+      213: -4968230658515012782
+    second: Necromancer_DeathNE_61x69_Sheet_9
+  - first:
+      213: -9077427002301592354
+    second: Necromancer_DeathNE_61x69_Sheet_10
+  - first:
+      213: 1096700500280983256
+    second: Necromancer_DeathNE_61x69_Sheet_11
+  - first:
+      213: -1429689179524513634
+    second: Necromancer_DeathNE_61x69_Sheet_12
+  - first:
+      213: 8914722416941099483
+    second: Necromancer_DeathNE_61x69_Sheet_13
+  - first:
+      213: 8266099665971426339
+    second: Necromancer_DeathNE_61x69_Sheet_14
+  - first:
+      213: -6131012108338979117
+    second: Necromancer_DeathNE_61x69_Sheet_15
+  - first:
+      213: 1449946418105928566
+    second: Necromancer_DeathNE_61x69_Sheet_16
+  - first:
+      213: 1991464182050545768
+    second: Necromancer_DeathNE_61x69_Sheet_17
+  - first:
+      213: -8705014166112036379
+    second: Necromancer_DeathNE_61x69_Sheet_18
+  - first:
+      213: -132659808198907341
+    second: Necromancer_DeathNE_61x69_Sheet_19
+  - first:
+      213: -4096201339175983538
+    second: Necromancer_DeathNE_61x69_Sheet_20
+  - first:
+      213: 2817391912175151850
+    second: Necromancer_DeathNE_61x69_Sheet_21
+  - first:
+      213: -8185191422741367315
+    second: Necromancer_DeathNE_61x69_Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 24
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c035e9638ff8e070800000000000000
+      internalID: 8136033666727227587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 33
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1110c4d7458061c60800000000000000
+      internalID: 7788421764556259601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 49
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba52b371605ca8d00800000000000000
+      internalID: 975808899229361579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 35
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d60137e7d247c20800000000000000
+      internalID: 3203235256086850828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 52
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27214ad198f49b0800000000000000
+      internalID: -5093701893133012240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 48
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df38b43a2122c20800000000000000
+      internalID: 3180124779432902031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05912681de79ed8f0800000000000000
+      internalID: -513806262901532336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 56
+        width: 191
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db9d79f0dbdd2c70800000000000000
+      internalID: 8948049725240482773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1676ad2aafb93ee00800000000000000
+      internalID: 1072872637020661601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253f105f98c4d0bb0800000000000000
+      internalID: -4968230658515012782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 8
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc46455c30860280800000000000000
+      internalID: -9077427002301592354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 8
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8debd306b43483f00800000000000000
+      internalID: 1096700500280983256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 8
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90c83b1449b82ce0800000000000000
+      internalID: -1429689179524513634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 8
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd96cf45ec477bb70800000000000000
+      internalID: 8914722416941099483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 8
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324b33cb9d517b270800000000000000
+      internalID: 8266099665971426339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 8
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de16d098f44aeaa0800000000000000
+      internalID: -6131012108338979117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 8
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bcd8ac59e3f1410800000000000000
+      internalID: 1449946418105928566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 8
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86069025f1a13ab10800000000000000
+      internalID: 1991464182050545768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 8
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e91620bcb3913780800000000000000
+      internalID: -8705014166112036379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 8
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a25587b92b82ef0800000000000000
+      internalID: -132659808198907341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 8
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46afe9a59e5727c0800000000000000
+      internalID: -4096201339175983538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 9
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea22465403691720800000000000000
+      internalID: 2817391912175151850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_DeathNE_61x69_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 41
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de53dec94cb586e80800000000000000
+      internalID: -8185191422741367315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Necromancer_DeathNE_61x69_Sheet_0: 8136033666727227587
+      Necromancer_DeathNE_61x69_Sheet_1: 7788421764556259601
+      Necromancer_DeathNE_61x69_Sheet_10: -9077427002301592354
+      Necromancer_DeathNE_61x69_Sheet_11: 1096700500280983256
+      Necromancer_DeathNE_61x69_Sheet_12: -1429689179524513634
+      Necromancer_DeathNE_61x69_Sheet_13: 8914722416941099483
+      Necromancer_DeathNE_61x69_Sheet_14: 8266099665971426339
+      Necromancer_DeathNE_61x69_Sheet_15: -6131012108338979117
+      Necromancer_DeathNE_61x69_Sheet_16: 1449946418105928566
+      Necromancer_DeathNE_61x69_Sheet_17: 1991464182050545768
+      Necromancer_DeathNE_61x69_Sheet_18: -8705014166112036379
+      Necromancer_DeathNE_61x69_Sheet_19: -132659808198907341
+      Necromancer_DeathNE_61x69_Sheet_2: 975808899229361579
+      Necromancer_DeathNE_61x69_Sheet_20: -4096201339175983538
+      Necromancer_DeathNE_61x69_Sheet_21: 2817391912175151850
+      Necromancer_DeathNE_61x69_Sheet_22: -8185191422741367315
+      Necromancer_DeathNE_61x69_Sheet_3: 3203235256086850828
+      Necromancer_DeathNE_61x69_Sheet_4: -5093701893133012240
+      Necromancer_DeathNE_61x69_Sheet_5: 3180124779432902031
+      Necromancer_DeathNE_61x69_Sheet_6: -513806262901532336
+      Necromancer_DeathNE_61x69_Sheet_7: 8948049725240482773
+      Necromancer_DeathNE_61x69_Sheet_8: 1072872637020661601
+      Necromancer_DeathNE_61x69_Sheet_9: -4968230658515012782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

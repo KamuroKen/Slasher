@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 47a625d477af70449b6f437aa5589d40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 273730009737063066
+    second: KnightB-DeathSE_101x95_Sheet_0
+  - first:
+      213: -6725928520073602961
+    second: KnightB-DeathSE_101x95_Sheet_1
+  - first:
+      213: 8864111363192150135
+    second: KnightB-DeathSE_101x95_Sheet_2
+  - first:
+      213: -3234241809975053854
+    second: KnightB-DeathSE_101x95_Sheet_3
+  - first:
+      213: 5229587302424809222
+    second: KnightB-DeathSE_101x95_Sheet_4
+  - first:
+      213: -4617535495497726860
+    second: KnightB-DeathSE_101x95_Sheet_5
+  - first:
+      213: -800413444835596700
+    second: KnightB-DeathSE_101x95_Sheet_6
+  - first:
+      213: 7590307191584256008
+    second: KnightB-DeathSE_101x95_Sheet_7
+  - first:
+      213: 1926525072298583203
+    second: KnightB-DeathSE_101x95_Sheet_8
+  - first:
+      213: 6756660607164316825
+    second: KnightB-DeathSE_101x95_Sheet_9
+  - first:
+      213: 5535786842503773993
+    second: KnightB-DeathSE_101x95_Sheet_10
+  - first:
+      213: 4005783321036109137
+    second: KnightB-DeathSE_101x95_Sheet_11
+  - first:
+      213: -3617794407149486501
+    second: KnightB-DeathSE_101x95_Sheet_12
+  - first:
+      213: 2787042081156139509
+    second: KnightB-DeathSE_101x95_Sheet_13
+  - first:
+      213: -6927029426101232397
+    second: KnightB-DeathSE_101x95_Sheet_14
+  - first:
+      213: 7244504355469936820
+    second: KnightB-DeathSE_101x95_Sheet_15
+  - first:
+      213: 3878008723627376863
+    second: KnightB-DeathSE_101x95_Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 21
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aedba5efb7cc300800000000000000
+      internalID: 273730009737063066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 21
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68185085a3b8a2a0800000000000000
+      internalID: -6725928520073602961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 23
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778529c1256a30b70800000000000000
+      internalID: 8864111363192150135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 22
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e178b6a53aad13d0800000000000000
+      internalID: -3234241809975053854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 21
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f8ceaa1f9339840800000000000000
+      internalID: 5229587302424809222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 47
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474c91d7ee73befb0800000000000000
+      internalID: -4617535495497726860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 19
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466a023763c54e4f0800000000000000
+      internalID: -800413444835596700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 20
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800f872fc20365960800000000000000
+      internalID: 7590307191584256008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 19
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4ad3998546cba10800000000000000
+      internalID: 1926525072298583203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 19
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c77ed160b74cd50800000000000000
+      internalID: 6756660607164316825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 16
+        width: 72
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ff7bbadc013dc40800000000000000
+      internalID: 5535786842503773993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 13
+        width: 77
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155ba89f4b6679730800000000000000
+      internalID: 4005783321036109137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 12
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eb57397230bcdc0800000000000000
+      internalID: -3617794407149486501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 12
+        width: 79
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f98065a1009da620800000000000000
+      internalID: 2787042081156139509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 12
+        width: 79
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcde8c107f3edf90800000000000000
+      internalID: -6927029426101232397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 12
+        width: 79
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b84e890456a98460800000000000000
+      internalID: 7244504355469936820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-DeathSE_101x95_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 12
+        width: 79
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd00da7336471d530800000000000000
+      internalID: 3878008723627376863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KnightB-DeathSE_101x95_Sheet_0: 273730009737063066
+      KnightB-DeathSE_101x95_Sheet_1: -6725928520073602961
+      KnightB-DeathSE_101x95_Sheet_10: 5535786842503773993
+      KnightB-DeathSE_101x95_Sheet_11: 4005783321036109137
+      KnightB-DeathSE_101x95_Sheet_12: -3617794407149486501
+      KnightB-DeathSE_101x95_Sheet_13: 2787042081156139509
+      KnightB-DeathSE_101x95_Sheet_14: -6927029426101232397
+      KnightB-DeathSE_101x95_Sheet_15: 7244504355469936820
+      KnightB-DeathSE_101x95_Sheet_16: 3878008723627376863
+      KnightB-DeathSE_101x95_Sheet_2: 8864111363192150135
+      KnightB-DeathSE_101x95_Sheet_3: -3234241809975053854
+      KnightB-DeathSE_101x95_Sheet_4: 5229587302424809222
+      KnightB-DeathSE_101x95_Sheet_5: -4617535495497726860
+      KnightB-DeathSE_101x95_Sheet_6: -800413444835596700
+      KnightB-DeathSE_101x95_Sheet_7: 7590307191584256008
+      KnightB-DeathSE_101x95_Sheet_8: 1926525072298583203
+      KnightB-DeathSE_101x95_Sheet_9: 6756660607164316825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

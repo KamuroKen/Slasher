@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: de1f68751057d85498ce84b793f2f36c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3965044193552343303
+    second: Necromancer_CastSpellE_61x69_Sheet_0
+  - first:
+      213: -3623102750210179948
+    second: Necromancer_CastSpellE_61x69_Sheet_1
+  - first:
+      213: -2164748778496138437
+    second: Necromancer_CastSpellE_61x69_Sheet_2
+  - first:
+      213: 4951869010051997209
+    second: Necromancer_CastSpellE_61x69_Sheet_3
+  - first:
+      213: 989548151116801988
+    second: Necromancer_CastSpellE_61x69_Sheet_4
+  - first:
+      213: -2204262572316285136
+    second: Necromancer_CastSpellE_61x69_Sheet_5
+  - first:
+      213: -2529692748039126468
+    second: Necromancer_CastSpellE_61x69_Sheet_6
+  - first:
+      213: -6318967118060996517
+    second: Necromancer_CastSpellE_61x69_Sheet_7
+  - first:
+      213: -2000477547693545492
+    second: Necromancer_CastSpellE_61x69_Sheet_8
+  - first:
+      213: -6238538187353217915
+    second: Necromancer_CastSpellE_61x69_Sheet_9
+  - first:
+      213: -7574300672632148110
+    second: Necromancer_CastSpellE_61x69_Sheet_10
+  - first:
+      213: 3935236466158203039
+    second: Necromancer_CastSpellE_61x69_Sheet_11
+  - first:
+      213: -4768706349618925871
+    second: Necromancer_CastSpellE_61x69_Sheet_12
+  - first:
+      213: -8953446471421506795
+    second: Necromancer_CastSpellE_61x69_Sheet_13
+  - first:
+      213: -7363847339044162486
+    second: Necromancer_CastSpellE_61x69_Sheet_14
+  - first:
+      213: -3687213770695790257
+    second: Necromancer_CastSpellE_61x69_Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701a963bfaaa60730800000000000000
+      internalID: 3965044193552343303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c3bf4ae3728bdc0800000000000000
+      internalID: -3623102750210179948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 9
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e6cd847445f1e0800000000000000
+      internalID: -2164748778496138437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e1a66e0a298b440800000000000000
+      internalID: 4951869010051997209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 5
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c72673fcc49bbd00800000000000000
+      internalID: 989548151116801988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03726618ed2e861e0800000000000000
+      internalID: -2204262572316285136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 9
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c320f3a39d9b4ecd0800000000000000
+      internalID: -2529692748039126468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58b99ca2e48e48a0800000000000000
+      internalID: -6318967118060996517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7e494f440ec34e0800000000000000
+      internalID: -2000477547693545492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5842a1162924c69a0800000000000000
+      internalID: -6238538187353217915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f22c92bada2e690800000000000000
+      internalID: -7574300672632148110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f58857b4cc9630800000000000000
+      internalID: 3935236466158203039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de60d837d622ddb0800000000000000
+      internalID: -4768706349618925871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b42732fd7feb380800000000000000
+      internalID: -8953446471421506795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4431184cdb5ec990800000000000000
+      internalID: -7363847339044162486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer_CastSpellE_61x69_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 9
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41bfba7c9264dcc0800000000000000
+      internalID: -3687213770695790257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Necromancer_CastSpellE_61x69_Sheet_0: 3965044193552343303
+      Necromancer_CastSpellE_61x69_Sheet_1: -3623102750210179948
+      Necromancer_CastSpellE_61x69_Sheet_10: -7574300672632148110
+      Necromancer_CastSpellE_61x69_Sheet_11: 3935236466158203039
+      Necromancer_CastSpellE_61x69_Sheet_12: -4768706349618925871
+      Necromancer_CastSpellE_61x69_Sheet_13: -8953446471421506795
+      Necromancer_CastSpellE_61x69_Sheet_14: -7363847339044162486
+      Necromancer_CastSpellE_61x69_Sheet_15: -3687213770695790257
+      Necromancer_CastSpellE_61x69_Sheet_2: -2164748778496138437
+      Necromancer_CastSpellE_61x69_Sheet_3: 4951869010051997209
+      Necromancer_CastSpellE_61x69_Sheet_4: 989548151116801988
+      Necromancer_CastSpellE_61x69_Sheet_5: -2204262572316285136
+      Necromancer_CastSpellE_61x69_Sheet_6: -2529692748039126468
+      Necromancer_CastSpellE_61x69_Sheet_7: -6318967118060996517
+      Necromancer_CastSpellE_61x69_Sheet_8: -2000477547693545492
+      Necromancer_CastSpellE_61x69_Sheet_9: -6238538187353217915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

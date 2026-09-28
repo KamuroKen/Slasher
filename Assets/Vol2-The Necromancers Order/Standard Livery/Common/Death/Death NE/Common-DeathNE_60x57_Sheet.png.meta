@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 5701c0b0a357ea947ae7a00e1763edaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8447438725282526080
+    second: Common-DeathNE_60x57_Sheet_0
+  - first:
+      213: 320039648211691425
+    second: Common-DeathNE_60x57_Sheet_1
+  - first:
+      213: 712541924075354280
+    second: Common-DeathNE_60x57_Sheet_2
+  - first:
+      213: 1906532276154651015
+    second: Common-DeathNE_60x57_Sheet_3
+  - first:
+      213: -4713841489642615891
+    second: Common-DeathNE_60x57_Sheet_4
+  - first:
+      213: -608030798078032500
+    second: Common-DeathNE_60x57_Sheet_5
+  - first:
+      213: -2136310095334809191
+    second: Common-DeathNE_60x57_Sheet_6
+  - first:
+      213: 3886744308404423056
+    second: Common-DeathNE_60x57_Sheet_7
+  - first:
+      213: -5465499168464911902
+    second: Common-DeathNE_60x57_Sheet_8
+  - first:
+      213: 6150814132248394603
+    second: Common-DeathNE_60x57_Sheet_9
+  - first:
+      213: -7000958972230121419
+    second: Common-DeathNE_60x57_Sheet_10
+  - first:
+      213: -1140299096071062322
+    second: Common-DeathNE_60x57_Sheet_11
+  - first:
+      213: 1301746849360693333
+    second: Common-DeathNE_60x57_Sheet_12
+  - first:
+      213: 1871058601797242213
+    second: Common-DeathNE_60x57_Sheet_13
+  - first:
+      213: -2166888987298403354
+    second: Common-DeathNE_60x57_Sheet_14
+  - first:
+      213: 5506312848681979462
+    second: Common-DeathNE_60x57_Sheet_15
+  - first:
+      213: -6904278140119149229
+    second: Common-DeathNE_60x57_Sheet_16
+  - first:
+      213: 3710515743924302265
+    second: Common-DeathNE_60x57_Sheet_17
+  - first:
+      213: 4681099438259856601
+    second: Common-DeathNE_60x57_Sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c08ad5c3ba4ca80800000000000000
+      internalID: -8447438725282526080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 14
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7e2b94d52017400800000000000000
+      internalID: 320039648211691425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8b510da1573e900800000000000000
+      internalID: 712541924075354280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 15
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781d301010d557a10800000000000000
+      internalID: 1906532276154651015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 17
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab8a52e322159eb0800000000000000
+      internalID: -4713841489642615891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 14
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85cf0ce537df87f0800000000000000
+      internalID: -608030798078032500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 17
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991ec75794d4a52e0800000000000000
+      internalID: -2136310095334809191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 15
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099873b0b5d70f530800000000000000
+      internalID: 3886744308404423056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 13
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1c477b675a624b0800000000000000
+      internalID: -5465499168464911902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 13
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b3e186dd41c5550800000000000000
+      internalID: 6150814132248394603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 12
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c32d48e897de90800000000000000
+      internalID: -7000958972230121419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 19
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc3cf08308dc20f0800000000000000
+      internalID: -1140299096071062322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 17
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558c0afccdbb01210800000000000000
+      internalID: 1301746849360693333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 13
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d401292e557f910800000000000000
+      internalID: 1871058601797242213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 12
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb6f5c52f9ade1e0800000000000000
+      internalID: -2166888987298403354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 17
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ecbd7bc5a5a6c40800000000000000
+      internalID: 5506312848681979462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 12
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35514bbac931f20a0800000000000000
+      internalID: -6904278140119149229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 17
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b13a12f8666e7330800000000000000
+      internalID: 3710515743924302265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common-DeathNE_60x57_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 12
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d462c7332b96f040800000000000000
+      internalID: 4681099438259856601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Common-DeathNE_60x57_Sheet_0: -8447438725282526080
+      Common-DeathNE_60x57_Sheet_1: 320039648211691425
+      Common-DeathNE_60x57_Sheet_10: -7000958972230121419
+      Common-DeathNE_60x57_Sheet_11: -1140299096071062322
+      Common-DeathNE_60x57_Sheet_12: 1301746849360693333
+      Common-DeathNE_60x57_Sheet_13: 1871058601797242213
+      Common-DeathNE_60x57_Sheet_14: -2166888987298403354
+      Common-DeathNE_60x57_Sheet_15: 5506312848681979462
+      Common-DeathNE_60x57_Sheet_16: -6904278140119149229
+      Common-DeathNE_60x57_Sheet_17: 3710515743924302265
+      Common-DeathNE_60x57_Sheet_18: 4681099438259856601
+      Common-DeathNE_60x57_Sheet_2: 712541924075354280
+      Common-DeathNE_60x57_Sheet_3: 1906532276154651015
+      Common-DeathNE_60x57_Sheet_4: -4713841489642615891
+      Common-DeathNE_60x57_Sheet_5: -608030798078032500
+      Common-DeathNE_60x57_Sheet_6: -2136310095334809191
+      Common-DeathNE_60x57_Sheet_7: 3886744308404423056
+      Common-DeathNE_60x57_Sheet_8: -5465499168464911902
+      Common-DeathNE_60x57_Sheet_9: 6150814132248394603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

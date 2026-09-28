@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: e92ddedf0490e284a96e6a55968299af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6154134825473175926
+    second: Captain_DeathSE_62x68_Sheet_0
+  - first:
+      213: -6878191815850123723
+    second: Captain_DeathSE_62x68_Sheet_1
+  - first:
+      213: 3665748735221181111
+    second: Captain_DeathSE_62x68_Sheet_2
+  - first:
+      213: 2607384129636086919
+    second: Captain_DeathSE_62x68_Sheet_3
+  - first:
+      213: -8784247848689396147
+    second: Captain_DeathSE_62x68_Sheet_4
+  - first:
+      213: 920828309548776515
+    second: Captain_DeathSE_62x68_Sheet_5
+  - first:
+      213: -1529708897651797091
+    second: Captain_DeathSE_62x68_Sheet_6
+  - first:
+      213: 2291203921719419178
+    second: Captain_DeathSE_62x68_Sheet_7
+  - first:
+      213: -4117014776823333632
+    second: Captain_DeathSE_62x68_Sheet_8
+  - first:
+      213: 1869544135652079777
+    second: Captain_DeathSE_62x68_Sheet_9
+  - first:
+      213: -1615732103600091230
+    second: Captain_DeathSE_62x68_Sheet_10
+  - first:
+      213: 8351153067697710508
+    second: Captain_DeathSE_62x68_Sheet_11
+  - first:
+      213: 5143500881255946694
+    second: Captain_DeathSE_62x68_Sheet_12
+  - first:
+      213: 4389825365309204404
+    second: Captain_DeathSE_62x68_Sheet_13
+  - first:
+      213: -1554235463319678599
+    second: Captain_DeathSE_62x68_Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671703c8401e76550800000000000000
+      internalID: 6154134825473175926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e11475cf0cb80a0800000000000000
+      internalID: -6878191815850123723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 17
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba22be7d0b5fd230800000000000000
+      internalID: 3665748735221181111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 16
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78433f72d0a4f2420800000000000000
+      internalID: 2607384129636086919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 31
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4611ef5f15181680800000000000000
+      internalID: -8784247848689396147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 15
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c37c1087077cc00800000000000000
+      internalID: 920828309548776515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 7
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d5b1ccd165cae0800000000000000
+      internalID: -1529708897651797091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 9
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216116d3ddfbcf10800000000000000
+      internalID: 2291203921719419178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 14
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d39649fdc6dd6c0800000000000000
+      internalID: -4117014776823333632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 7
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8f4717c74f1f910800000000000000
+      internalID: 1869544135652079777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 8
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afc8b85634c399e0800000000000000
+      internalID: -1615732103600091230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 8
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca52901087145e370800000000000000
+      internalID: 8351153067697710508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 8
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c95b21dcc2616740800000000000000
+      internalID: 5143500881255946694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 5
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7214559eacbec30800000000000000
+      internalID: 4389825365309204404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_DeathSE_62x68_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 5
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971148fa41f3e6ae0800000000000000
+      internalID: -1554235463319678599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Captain_DeathSE_62x68_Sheet_0: 6154134825473175926
+      Captain_DeathSE_62x68_Sheet_1: -6878191815850123723
+      Captain_DeathSE_62x68_Sheet_10: -1615732103600091230
+      Captain_DeathSE_62x68_Sheet_11: 8351153067697710508
+      Captain_DeathSE_62x68_Sheet_12: 5143500881255946694
+      Captain_DeathSE_62x68_Sheet_13: 4389825365309204404
+      Captain_DeathSE_62x68_Sheet_14: -1554235463319678599
+      Captain_DeathSE_62x68_Sheet_2: 3665748735221181111
+      Captain_DeathSE_62x68_Sheet_3: 2607384129636086919
+      Captain_DeathSE_62x68_Sheet_4: -8784247848689396147
+      Captain_DeathSE_62x68_Sheet_5: 920828309548776515
+      Captain_DeathSE_62x68_Sheet_6: -1529708897651797091
+      Captain_DeathSE_62x68_Sheet_7: 2291203921719419178
+      Captain_DeathSE_62x68_Sheet_8: -4117014776823333632
+      Captain_DeathSE_62x68_Sheet_9: 1869544135652079777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

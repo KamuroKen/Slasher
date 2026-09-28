@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 1f10d9b784cb58e46b01c5a7c239789e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8334372993143374741
+    second: KnightB-Attack3N_101x95_Sheet_0
+  - first:
+      213: -1491874758825758523
+    second: KnightB-Attack3N_101x95_Sheet_1
+  - first:
+      213: 7635273974097276802
+    second: KnightB-Attack3N_101x95_Sheet_2
+  - first:
+      213: -7291957120147611438
+    second: KnightB-Attack3N_101x95_Sheet_3
+  - first:
+      213: 4043985628924866102
+    second: KnightB-Attack3N_101x95_Sheet_4
+  - first:
+      213: 757088937832069814
+    second: KnightB-Attack3N_101x95_Sheet_5
+  - first:
+      213: 5165791260593512894
+    second: KnightB-Attack3N_101x95_Sheet_6
+  - first:
+      213: 6818523986664840657
+    second: KnightB-Attack3N_101x95_Sheet_7
+  - first:
+      213: -5403766003693665261
+    second: KnightB-Attack3N_101x95_Sheet_8
+  - first:
+      213: 7954830816263296166
+    second: KnightB-Attack3N_101x95_Sheet_9
+  - first:
+      213: 3285855818763292766
+    second: KnightB-Attack3N_101x95_Sheet_10
+  - first:
+      213: 7313938957049717825
+    second: KnightB-Attack3N_101x95_Sheet_11
+  - first:
+      213: -316955913922075640
+    second: KnightB-Attack3N_101x95_Sheet_12
+  - first:
+      213: 6874111531268192529
+    second: KnightB-Attack3N_101x95_Sheet_13
+  - first:
+      213: -3565064542603900440
+    second: KnightB-Attack3N_101x95_Sheet_14
+  - first:
+      213: -2369749069429607816
+    second: KnightB-Attack3N_101x95_Sheet_15
+  - first:
+      213: 8704032585880432177
+    second: KnightB-Attack3N_101x95_Sheet_16
+  - first:
+      213: 2828783982121914287
+    second: KnightB-Attack3N_101x95_Sheet_17
+  - first:
+      213: 676250385020828974
+    second: KnightB-Attack3N_101x95_Sheet_18
+  - first:
+      213: 3196086186752766238
+    second: KnightB-Attack3N_101x95_Sheet_19
+  - first:
+      213: -373466275068323311
+    second: KnightB-Attack3N_101x95_Sheet_20
+  - first:
+      213: -7274338747580520163
+    second: KnightB-Attack3N_101x95_Sheet_21
+  - first:
+      213: -8937729670045449387
+    second: KnightB-Attack3N_101x95_Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 22
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938be17414a9a370800000000000000
+      internalID: 8334372993143374741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 22
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0b1d6afcbcb4be0800000000000000
+      internalID: -1491874758825758523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 22
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f6adcd931f5f960800000000000000
+      internalID: 7635273974097276802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 22
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0a83832a3cdca90800000000000000
+      internalID: -7291957120147611438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 22
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ee9d8e08f1f1830800000000000000
+      internalID: 4043985628924866102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 9
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6babbd2b068b18a00800000000000000
+      internalID: 757088937832069814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 20
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb16e7f28c390b740800000000000000
+      internalID: 5165791260593512894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 20
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd53a5907340ae50800000000000000
+      internalID: 6818523986664840657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 64
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314c1843377f105b0800000000000000
+      internalID: -5403766003693665261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a454bb1b7c356e60800000000000000
+      internalID: 7954830816263296166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 20
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50598c3574b99d20800000000000000
+      internalID: 3285855818763292766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e6d30bb4508560800000000000000
+      internalID: 7313938957049717825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 64
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804273d8642f99bf0800000000000000
+      internalID: -316955913922075640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 61
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11938af5400c56f50800000000000000
+      internalID: 6874111531268192529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 20
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e901c0efa8568ec0800000000000000
+      internalID: -3565064542603900440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 57
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872f5ddd6c5fc1fd0800000000000000
+      internalID: -2369749069429607816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 13
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ee3da558feac870800000000000000
+      internalID: 8704032585880432177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 42
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf01b05b0cd14720800000000000000
+      internalID: 2828783982121914287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 52
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d336a6426826900800000000000000
+      internalID: 676250385020828974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 51
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e117ee80477ca5c20800000000000000
+      internalID: 3196086186752766238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 16
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ad6fac66e21daf0800000000000000
+      internalID: -373466275068323311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 20
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d196a9e337b5c0b90800000000000000
+      internalID: -7274338747580520163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightB-Attack3N_101x95_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 15
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553c87e183ec6f380800000000000000
+      internalID: -8937729670045449387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KnightB-Attack3N_101x95_Sheet_0: 8334372993143374741
+      KnightB-Attack3N_101x95_Sheet_1: -1491874758825758523
+      KnightB-Attack3N_101x95_Sheet_10: 3285855818763292766
+      KnightB-Attack3N_101x95_Sheet_11: 7313938957049717825
+      KnightB-Attack3N_101x95_Sheet_12: -316955913922075640
+      KnightB-Attack3N_101x95_Sheet_13: 6874111531268192529
+      KnightB-Attack3N_101x95_Sheet_14: -3565064542603900440
+      KnightB-Attack3N_101x95_Sheet_15: -2369749069429607816
+      KnightB-Attack3N_101x95_Sheet_16: 8704032585880432177
+      KnightB-Attack3N_101x95_Sheet_17: 2828783982121914287
+      KnightB-Attack3N_101x95_Sheet_18: 676250385020828974
+      KnightB-Attack3N_101x95_Sheet_19: 3196086186752766238
+      KnightB-Attack3N_101x95_Sheet_2: 7635273974097276802
+      KnightB-Attack3N_101x95_Sheet_20: -373466275068323311
+      KnightB-Attack3N_101x95_Sheet_21: -7274338747580520163
+      KnightB-Attack3N_101x95_Sheet_22: -8937729670045449387
+      KnightB-Attack3N_101x95_Sheet_3: -7291957120147611438
+      KnightB-Attack3N_101x95_Sheet_4: 4043985628924866102
+      KnightB-Attack3N_101x95_Sheet_5: 757088937832069814
+      KnightB-Attack3N_101x95_Sheet_6: 5165791260593512894
+      KnightB-Attack3N_101x95_Sheet_7: 6818523986664840657
+      KnightB-Attack3N_101x95_Sheet_8: -5403766003693665261
+      KnightB-Attack3N_101x95_Sheet_9: 7954830816263296166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

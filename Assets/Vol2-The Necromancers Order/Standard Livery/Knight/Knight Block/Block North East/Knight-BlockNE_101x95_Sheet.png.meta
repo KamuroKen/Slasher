@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: df11e2c72005a34438338fceb0e3a32d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8996252444277049819
+    second: Knight-BlockNE_101x95_Sheet_0
+  - first:
+      213: -1350526706814993975
+    second: Knight-BlockNE_101x95_Sheet_1
+  - first:
+      213: -6459739654641907095
+    second: Knight-BlockNE_101x95_Sheet_2
+  - first:
+      213: -2565244500173826335
+    second: Knight-BlockNE_101x95_Sheet_3
+  - first:
+      213: -5887135050482052309
+    second: Knight-BlockNE_101x95_Sheet_4
+  - first:
+      213: -2529825883196274903
+    second: Knight-BlockNE_101x95_Sheet_5
+  - first:
+      213: 4674856709872812500
+    second: Knight-BlockNE_101x95_Sheet_6
+  - first:
+      213: -8771500776515049553
+    second: Knight-BlockNE_101x95_Sheet_7
+  - first:
+      213: -8191695761068916435
+    second: Knight-BlockNE_101x95_Sheet_8
+  - first:
+      213: 8756011061528932186
+    second: Knight-BlockNE_101x95_Sheet_9
+  - first:
+      213: -2111466805091770620
+    second: Knight-BlockNE_101x95_Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 21
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526702de014e62380800000000000000
+      internalID: -8996252444277049819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 21
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c93d949d17f14de0800000000000000
+      internalID: -1350526706814993975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 21
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a809f52056a56a0800000000000000
+      internalID: -6459739654641907095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e65d15e7bb666cd0800000000000000
+      internalID: -2565244500173826335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 21
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23144becd1bc4ea0800000000000000
+      internalID: -5887135050482052309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 21
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9274f7843c044ecd0800000000000000
+      internalID: -2529825883196274903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 21
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d102dfb86d60e040800000000000000
+      internalID: 4674856709872812500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 21
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7e1c4648e554680800000000000000
+      internalID: -8771500776515049553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 26
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d210a655b10415e80800000000000000
+      internalID: -8191695761068916435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 21
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa2db4ba9938970800000000000000
+      internalID: 8756011061528932186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight-BlockNE_101x95_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 21
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fd977b02092b2e0800000000000000
+      internalID: -2111466805091770620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight-BlockNE_101x95_Sheet_0: -8996252444277049819
+      Knight-BlockNE_101x95_Sheet_1: -1350526706814993975
+      Knight-BlockNE_101x95_Sheet_10: -2111466805091770620
+      Knight-BlockNE_101x95_Sheet_2: -6459739654641907095
+      Knight-BlockNE_101x95_Sheet_3: -2565244500173826335
+      Knight-BlockNE_101x95_Sheet_4: -5887135050482052309
+      Knight-BlockNE_101x95_Sheet_5: -2529825883196274903
+      Knight-BlockNE_101x95_Sheet_6: 4674856709872812500
+      Knight-BlockNE_101x95_Sheet_7: -8771500776515049553
+      Knight-BlockNE_101x95_Sheet_8: -8191695761068916435
+      Knight-BlockNE_101x95_Sheet_9: 8756011061528932186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

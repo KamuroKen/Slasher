@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 6ea1fb73660418a4a956e567f1c2c967
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5034565108573844540
+    second: Captain_AttackSE_62x68_Sheet_0
+  - first:
+      213: 1299205635116783436
+    second: Captain_AttackSE_62x68_Sheet_1
+  - first:
+      213: 2343474230779446266
+    second: Captain_AttackSE_62x68_Sheet_2
+  - first:
+      213: 4615790062438569443
+    second: Captain_AttackSE_62x68_Sheet_3
+  - first:
+      213: 393373246322580886
+    second: Captain_AttackSE_62x68_Sheet_4
+  - first:
+      213: -1344980323400698762
+    second: Captain_AttackSE_62x68_Sheet_5
+  - first:
+      213: 5732737587756924538
+    second: Captain_AttackSE_62x68_Sheet_6
+  - first:
+      213: -4429422554442726447
+    second: Captain_AttackSE_62x68_Sheet_7
+  - first:
+      213: -6393250849096430991
+    second: Captain_AttackSE_62x68_Sheet_8
+  - first:
+      213: 3608529786783949231
+    second: Captain_AttackSE_62x68_Sheet_9
+  - first:
+      213: 2275914175443498562
+    second: Captain_AttackSE_62x68_Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb41e045b1a12ab0800000000000000
+      internalID: -5034565108573844540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 13
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47525344a4b70210800000000000000
+      internalID: 1299205635116783436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 13
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af304e98561b58020800000000000000
+      internalID: 2343474230779446266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 13
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5dd653b949e0040800000000000000
+      internalID: 4615790062438569443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 10
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d133322ea857500800000000000000
+      internalID: 393373246322580886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674bfc9958ba55de0800000000000000
+      internalID: -1344980323400698762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ef7c47676ce8f40800000000000000
+      internalID: 5732737587756924538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d38652a7a78782c0800000000000000
+      internalID: -4429422554442726447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a84a3c93c9647a0800000000000000
+      internalID: -6393250849096430991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 11
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa16ca6e8b2141230800000000000000
+      internalID: 3608529786783949231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_AttackSE_62x68_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f59e52eba59f10800000000000000
+      internalID: 2275914175443498562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Captain_AttackSE_62x68_Sheet_0: -5034565108573844540
+      Captain_AttackSE_62x68_Sheet_1: 1299205635116783436
+      Captain_AttackSE_62x68_Sheet_10: 2275914175443498562
+      Captain_AttackSE_62x68_Sheet_2: 2343474230779446266
+      Captain_AttackSE_62x68_Sheet_3: 4615790062438569443
+      Captain_AttackSE_62x68_Sheet_4: 393373246322580886
+      Captain_AttackSE_62x68_Sheet_5: -1344980323400698762
+      Captain_AttackSE_62x68_Sheet_6: 5732737587756924538
+      Captain_AttackSE_62x68_Sheet_7: -4429422554442726447
+      Captain_AttackSE_62x68_Sheet_8: -6393250849096430991
+      Captain_AttackSE_62x68_Sheet_9: 3608529786783949231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

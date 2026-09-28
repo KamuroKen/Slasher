@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,265 +146,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vein A1 Sheet_0
+      name: Vein_A1_Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7cd2763ce2f53ec0800000000000000
-      internalID: -3587694431791031171
+      spriteID: f073d6449d077bc4ca366f84efd54495
+      internalID: -1858494568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_1
+      name: Vein_A1_Sheet_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca86a8f4e7aed7620800000000000000
-      internalID: 2773630773751343276
+      spriteID: 23088f3ffb37a334aa7375aa881b8bf5
+      internalID: -1728953641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_2
+      name: Vein_A1_Sheet_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc2b512f81188b8a0800000000000000
-      internalID: -6289134935482191153
+      spriteID: 8ffc414f86deb8f4fa66bec143f2828f
+      internalID: -651797081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_3
+      name: Vein_A1_Sheet_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1535851e9ca6a750800000000000000
-      internalID: 6315925322399560991
+      spriteID: 2b5ac51d37a8aca408212567b0614856
+      internalID: -1990929558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_4
+      name: Vein_A1_Sheet_4
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 794b55da97bb318d0800000000000000
-      internalID: -2876749605686102889
+      spriteID: 00b2f4bb1e4362e44ad2416e08640665
+      internalID: -2121971275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_5
+      name: Vein_A1_Sheet_5
       rect:
         serializedVersion: 2
-        x: 162
+        x: 160
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd4945fa8000356c0800000000000000
-      internalID: -4155977993831541541
+      spriteID: 3bdac79a8e1349748b330d793d75e410
+      internalID: -1996197988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_6
+      name: Vein_A1_Sheet_6
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b58e2c6a3aa145230800000000000000
-      internalID: 3626552890119874651
+      spriteID: 7ae080e143f93a44d8b0b030724151f3
+      internalID: -345984239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_7
+      name: Vein_A1_Sheet_7
       rect:
         serializedVersion: 2
-        x: 226
+        x: 224
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be2c15915ca817440800000000000000
-      internalID: 4931875646085382891
+      spriteID: f622861615620d347bc5d69ef0c56a1a
+      internalID: -1174527530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_8
+      name: Vein_A1_Sheet_8
       rect:
         serializedVersion: 2
-        x: 258
+        x: 256
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34e3d9558ad174530800000000000000
-      internalID: 3839069816184716867
+      spriteID: 54214a16fbc02bc48aa8baaf63d4aeb9
+      internalID: -242905216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_9
+      name: Vein_A1_Sheet_9
       rect:
         serializedVersion: 2
-        x: 290
+        x: 288
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2feea75f2abc66b0800000000000000
-      internalID: -5301657948824604884
+      spriteID: cdeb6fdc607a240409e4448bcfe9eb46
+      internalID: -2078784010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_10
+      name: Vein_A1_Sheet_10
       rect:
         serializedVersion: 2
-        x: 322
+        x: 320
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a94824e858f230840800000000000000
-      internalID: 5189043446324823194
+      spriteID: 0173093fbc4b2e74c955d39d0c03c508
+      internalID: -174029785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vein A1 Sheet_11
+      name: Vein_A1_Sheet_11
       rect:
         serializedVersion: 2
-        x: 354
+        x: 352
         y: 0
-        width: 28
+        width: 32
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1aeec5ce08d2ea6e0800000000000000
-      internalID: -1824470767293895007
+      spriteID: e823254fb7a7b23428a9f43973b586a0
+      internalID: 778979928
       vertices: []
       indices: 
       edges: []
@@ -413,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4384b5f99f2deb64e9755427428cf782
     internalID: 0
     vertices: []
     indices: 
@@ -423,18 +423,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vein A1 Sheet_0: -3587694431791031171
-      Vein A1 Sheet_1: 2773630773751343276
-      Vein A1 Sheet_10: 5189043446324823194
-      Vein A1 Sheet_11: -1824470767293895007
-      Vein A1 Sheet_2: -6289134935482191153
-      Vein A1 Sheet_3: 6315925322399560991
-      Vein A1 Sheet_4: -2876749605686102889
-      Vein A1 Sheet_5: -4155977993831541541
-      Vein A1 Sheet_6: 3626552890119874651
-      Vein A1 Sheet_7: 4931875646085382891
-      Vein A1 Sheet_8: 3839069816184716867
-      Vein A1 Sheet_9: -5301657948824604884
+      Vein_A1_Sheet_0: -1858494568
+      Vein_A1_Sheet_1: -1728953641
+      Vein_A1_Sheet_10: -174029785
+      Vein_A1_Sheet_11: 778979928
+      Vein_A1_Sheet_2: -651797081
+      Vein_A1_Sheet_3: -1990929558
+      Vein_A1_Sheet_4: -2121971275
+      Vein_A1_Sheet_5: -1996197988
+      Vein_A1_Sheet_6: -345984239
+      Vein_A1_Sheet_7: -1174527530
+      Vein_A1_Sheet_8: -242905216
+      Vein_A1_Sheet_9: -2078784010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

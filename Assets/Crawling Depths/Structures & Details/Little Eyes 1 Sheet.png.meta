@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,10 +87,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,133 +128,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Little Eyes 1 Sheet_0
+      name: Little_Eyes_1_Sheet_11
       rect:
         serializedVersion: 2
-        x: 178
-        y: 3
-        width: 37
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21508b34f7dd045f0800000000000000
-      internalID: -774375597241006830
+      spriteID: 585375d334372b3468e5783370397ec5
+      internalID: -727503381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Little Eyes 1 Sheet_1
+      name: Little_Eyes_1_Sheet_12
       rect:
         serializedVersion: 2
-        x: 215
-        y: 2
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db6ac3c2dbc4106a0800000000000000
-      internalID: -6484817613062101315
+      spriteID: c93e90da682119b4f9fbedf55e7b189f
+      internalID: 719805116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Little Eyes 1 Sheet_2
+      name: Little_Eyes_1_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666bc17d545770b45b8e0d39f90d1c20
+      internalID: 1579640077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little_Eyes_1_Sheet_14
       rect:
         serializedVersion: 2
         x: 224
-        y: 3
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24bbcfa53a97b0520800000000000000
-      internalID: 2669360946660293442
+      spriteID: b03112e53a2e4d0489c62fedcc2548d3
+      internalID: -2088671976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Little Eyes 1 Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 2
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd41372b7b7142a70800000000000000
-      internalID: 8801185649529132251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Little Eyes 1 Sheet_4
+      name: Little_Eyes_1_Sheet_15
       rect:
         serializedVersion: 2
         x: 240
-        y: 3
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1db71574359249110800000000000000
-      internalID: 1266682832853498833
+      spriteID: 93a6bf4665f52f74d97a6b561a0234ab
+      internalID: 1443848611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Little Eyes 1 Sheet_5
+      name: Little_Eyes_1_Sheet_16
       rect:
         serializedVersion: 2
-        x: 247
-        y: 2
-        width: 37
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3459d077a0c7acd50800000000000000
-      internalID: 6758350575211746627
+      spriteID: 3c28eb598ed3c8544a00f74672d2461b
+      internalID: -1494271844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little_Eyes_1_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d806003a15fe92439126711c6a3d1b8
+      internalID: 465025466
       vertices: []
       indices: 
       edges: []
@@ -263,7 +285,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b73bb118bba786c47ba99687805075c6
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +295,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Little Eyes 1 Sheet_0: -774375597241006830
-      Little Eyes 1 Sheet_1: -6484817613062101315
-      Little Eyes 1 Sheet_2: 2669360946660293442
-      Little Eyes 1 Sheet_3: 8801185649529132251
-      Little Eyes 1 Sheet_4: 1266682832853498833
-      Little Eyes 1 Sheet_5: 6758350575211746627
+      Little_Eyes_1_Sheet_11: -727503381
+      Little_Eyes_1_Sheet_12: 719805116
+      Little_Eyes_1_Sheet_13: 1579640077
+      Little_Eyes_1_Sheet_14: -2088671976
+      Little_Eyes_1_Sheet_15: 1443848611
+      Little_Eyes_1_Sheet_16: -1494271844
+      Little_Eyes_1_Sheet_17: 465025466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

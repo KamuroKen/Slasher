@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,10 +129,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -170,441 +170,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_0
+      name: Hand-shaped_Altar_Sheet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 12
-        width: 66
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4916dd21d032d1070800000000000000
-      internalID: 8078651845630583188
+      spriteID: 5953029fa30a00746ac79b2b33856864
+      internalID: -900996154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_1
+      name: Hand-shaped_Altar_Sheet_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 12
-        width: 66
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d98247a5af5a3e4a0800000000000000
-      internalID: -6565221337098082147
+      spriteID: 4e24adfb39e09f24c81d5965ea716965
+      internalID: -295960763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_2
+      name: Hand-shaped_Altar_Sheet_2
       rect:
         serializedVersion: 2
-        x: 163
-        y: 12
-        width: 66
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a41d9c68bb519910800000000000000
-      internalID: 1842354570225587368
+      spriteID: 6c0809f6d1dbe154f91f3cb4be62dd84
+      internalID: -365557981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_3
+      name: Hand-shaped_Altar_Sheet_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 12
-        width: 66
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 234
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6172e6f4949d6c480800000000000000
-      internalID: -8879170706425895146
+      spriteID: f61dd2db96a7dcc45b7eecece66023a6
+      internalID: -996423451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_4
+      name: Hand-shaped_Altar_Sheet_4
       rect:
         serializedVersion: 2
-        x: 344
-        y: 85
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 312
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a66e4354205de63a0800000000000000
-      internalID: -6670159792361380246
+      spriteID: e59c4a5d88fcc1847b13d0e7a95aab79
+      internalID: -112183977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_5
+      name: Hand-shaped_Altar_Sheet_5
       rect:
         serializedVersion: 2
-        x: 422
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 390
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 490f93dcb13de5b10800000000000000
-      internalID: 1972245803195560084
+      spriteID: 896cc7aae98c5e3429fcc2fef347d12c
+      internalID: -317313933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_6
+      name: Hand-shaped_Altar_Sheet_6
       rect:
         serializedVersion: 2
-        x: 500
-        y: 89
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 468
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c4deb5281a5a07e0800000000000000
-      internalID: -1798526041422113597
+      spriteID: 26bdc50dbb2d3d546bfeaa7be230f52d
+      internalID: -1041143151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_7
+      name: Hand-shaped_Altar_Sheet_7
       rect:
         serializedVersion: 2
-        x: 578
-        y: 90
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 546
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c50b53f61d568880800000000000000
-      internalID: -8609091284518631997
+      spriteID: 67b56b99b10250f4ca91c931d8607fdd
+      internalID: -1905507036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_8
+      name: Hand-shaped_Altar_Sheet_8
       rect:
         serializedVersion: 2
-        x: 656
-        y: 89
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 624
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5ac6e18342476090800000000000000
-      internalID: -8041385751937103268
+      spriteID: 32f9082c892f5354b9ce0a4744e1f488
+      internalID: -1072230932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_9
+      name: Hand-shaped_Altar_Sheet_9
       rect:
         serializedVersion: 2
-        x: 734
-        y: 87
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 702
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ef3f926826ffe500800000000000000
-      internalID: 427831142937214944
+      spriteID: 79ba696dd63acd84c91b8f5e50c0ca04
+      internalID: 1087648495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_10
+      name: Hand-shaped_Altar_Sheet_10
       rect:
         serializedVersion: 2
-        x: 812
-        y: 85
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 780
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c78d18f9367610ad0800000000000000
-      internalID: -2737793420889040772
+      spriteID: 5d22194d035cb8847b74e54e0d11961b
+      internalID: -1301170238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_11
+      name: Hand-shaped_Altar_Sheet_11
       rect:
         serializedVersion: 2
-        x: 865
-        y: 12
-        width: 66
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 858
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e32d76d60064819b0800000000000000
-      internalID: -5109256809602362818
+      spriteID: 4a7bdb7863881484fb50dd60eac7e70a
+      internalID: -1453022033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_12
+      name: Hand-shaped_Altar_Sheet_12
       rect:
         serializedVersion: 2
-        x: 943
-        y: 12
-        width: 66
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 936
+        y: 13
+        width: 78
+        height: 99
+      alignment: 9
+      pivot: {x: 0.102564104, y: 0.08080808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 57d323c7e8a295730800000000000000
-      internalID: 3988265736470674805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1e1bbaebaacb4b90800000000000000
-      internalID: -7256483534851072482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ded3cea14da402470800000000000000
-      internalID: 8367770382499593709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 475
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1303ca18bf2630d60800000000000000
-      internalID: 7855231007416135729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 553
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f3085a605ba40b70800000000000000
-      internalID: 8864398328441865206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e308ae9466dd2a1b0800000000000000
-      internalID: -5646707551372672962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85e4b1ea973d7ebf0800000000000000
-      internalID: -295034731003949480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand-shaped Altar Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 12
-        width: 66
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 949d69a582a47cab0800000000000000
-      internalID: -4987936525110552247
+      spriteID: 9a927e18027fd614296bb0ea20a59ff3
+      internalID: 1707626181
       vertices: []
       indices: 
       edges: []
@@ -613,7 +459,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d22f1ea9869a5da40b0890fba93f8547
     internalID: 0
     vertices: []
     indices: 
@@ -623,26 +469,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hand-shaped Altar Sheet_0: 8078651845630583188
-      Hand-shaped Altar Sheet_1: -6565221337098082147
-      Hand-shaped Altar Sheet_10: -2737793420889040772
-      Hand-shaped Altar Sheet_11: -5109256809602362818
-      Hand-shaped Altar Sheet_12: 3988265736470674805
-      Hand-shaped Altar Sheet_13: -7256483534851072482
-      Hand-shaped Altar Sheet_14: 8367770382499593709
-      Hand-shaped Altar Sheet_15: 7855231007416135729
-      Hand-shaped Altar Sheet_16: 8864398328441865206
-      Hand-shaped Altar Sheet_17: -5646707551372672962
-      Hand-shaped Altar Sheet_18: -295034731003949480
-      Hand-shaped Altar Sheet_19: -4987936525110552247
-      Hand-shaped Altar Sheet_2: 1842354570225587368
-      Hand-shaped Altar Sheet_3: -8879170706425895146
-      Hand-shaped Altar Sheet_4: -6670159792361380246
-      Hand-shaped Altar Sheet_5: 1972245803195560084
-      Hand-shaped Altar Sheet_6: -1798526041422113597
-      Hand-shaped Altar Sheet_7: -8609091284518631997
-      Hand-shaped Altar Sheet_8: -8041385751937103268
-      Hand-shaped Altar Sheet_9: 427831142937214944
+      Hand-shaped_Altar_Sheet_0: -900996154
+      Hand-shaped_Altar_Sheet_1: -295960763
+      Hand-shaped_Altar_Sheet_10: -1301170238
+      Hand-shaped_Altar_Sheet_11: -1453022033
+      Hand-shaped_Altar_Sheet_12: 1707626181
+      Hand-shaped_Altar_Sheet_2: -365557981
+      Hand-shaped_Altar_Sheet_3: -996423451
+      Hand-shaped_Altar_Sheet_4: -112183977
+      Hand-shaped_Altar_Sheet_5: -317313933
+      Hand-shaped_Altar_Sheet_6: -1041143151
+      Hand-shaped_Altar_Sheet_7: -1905507036
+      Hand-shaped_Altar_Sheet_8: -1072230932
+      Hand-shaped_Altar_Sheet_9: 1087648495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

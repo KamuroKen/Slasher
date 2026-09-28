@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 30dbbc2032b786c45b9e20f9723ea528
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4867419012341842567
+    second: Hand-shaped Altar (Pick up) Sheet_0
+  - first:
+      213: -3544707374515182945
+    second: Hand-shaped Altar (Pick up) Sheet_1
+  - first:
+      213: -5391306746719954994
+    second: Hand-shaped Altar (Pick up) Sheet_2
+  - first:
+      213: -359547465771590899
+    second: Hand-shaped Altar (Pick up) Sheet_3
+  - first:
+      213: -2874132364445052207
+    second: Hand-shaped Altar (Pick up) Sheet_4
+  - first:
+      213: 1791050447720530690
+    second: Hand-shaped Altar (Pick up) Sheet_5
+  - first:
+      213: -6739624303363087708
+    second: Hand-shaped Altar (Pick up) Sheet_6
+  - first:
+      213: 8403677948437840941
+    second: Hand-shaped Altar (Pick up) Sheet_7
+  - first:
+      213: -3993441831617912396
+    second: Hand-shaped Altar (Pick up) Sheet_8
+  - first:
+      213: 2718426604442990247
+    second: Hand-shaped Altar (Pick up) Sheet_9
+  - first:
+      213: 6928593385618451775
+    second: Hand-shaped Altar (Pick up) Sheet_10
+  - first:
+      213: -402136738162933777
+    second: Hand-shaped Altar (Pick up) Sheet_11
+  - first:
+      213: -8135515514772593773
+    second: Hand-shaped Altar (Pick up) Sheet_12
+  - first:
+      213: -6272084788163349914
+    second: Hand-shaped Altar (Pick up) Sheet_13
+  - first:
+      213: -3305782880345538602
+    second: Hand-shaped Altar (Pick up) Sheet_14
+  - first:
+      213: -8614328642882339334
+    second: Hand-shaped Altar (Pick up) Sheet_15
+  - first:
+      213: 630812755200459116
+    second: Hand-shaped Altar (Pick up) Sheet_16
+  - first:
+      213: 5902963967960560752
+    second: Hand-shaped Altar (Pick up) Sheet_17
+  - first:
+      213: -8217441720008174628
+    second: Hand-shaped Altar (Pick up) Sheet_18
+  - first:
+      213: -7097945426519126319
+    second: Hand-shaped Altar (Pick up) Sheet_19
+  - first:
+      213: 6786522899452503015
+    second: Hand-shaped Altar (Pick up) Sheet_20
+  - first:
+      213: -4049887120966750537
+    second: Hand-shaped Altar (Pick up) Sheet_21
+  - first:
+      213: -3679694519915465231
+    second: Hand-shaped Altar (Pick up) Sheet_22
+  - first:
+      213: 8860618229184822564
+    second: Hand-shaped Altar (Pick up) Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7824e939dcb8c8340800000000000000
+      internalID: 4867419012341842567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92a05d6c6baecec0800000000000000
+      internalID: -3544707374515182945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec71796041b3e25b0800000000000000
+      internalID: -5391306746719954994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bdace1c71a20bf0800000000000000
+      internalID: -359547465771590899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d29cc3a7d70d18d0800000000000000
+      internalID: -2874132364445052207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203cf2f84e61bd810800000000000000
+      internalID: 1791050447720530690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a22476776b0872a0800000000000000
+      internalID: -6739624303363087708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24cb6bc19cdf9470800000000000000
+      internalID: 8403677948437840941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1aa33ffc17498c0800000000000000
+      internalID: -3993441831617912396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6bbc9089ac9b520800000000000000
+      internalID: 2718426604442990247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 89
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3da8e699fe472060800000000000000
+      internalID: 6928593385618451775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 12
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feff9aa64c25b6af0800000000000000
+      internalID: -402136738162933777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393ec4d3eb7d81f80800000000000000
+      internalID: -8135515514772593773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6627468bd1415f8a0800000000000000
+      internalID: -6272084788163349914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfbf603cff7f12d0800000000000000
+      internalID: -3305782880345538602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd768e6db1c37880800000000000000
+      internalID: -8614328642882339334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c614281dbd811c800800000000000000
+      internalID: 630812755200459116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0743830247a8be150800000000000000
+      internalID: 5902963967960560752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd310742b48c5fd80800000000000000
+      internalID: -8217441720008174628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de0839bd380f7d90800000000000000
+      internalID: -7097945426519126319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3abe9de929e2e50800000000000000
+      internalID: 6786522899452503015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bee856ee19ebc7c0800000000000000
+      internalID: -4049887120966750537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5bc7a74591fecc0800000000000000
+      internalID: -3679694519915465231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-shaped Altar (Pick up) Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 12
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d79e8755d37fa70800000000000000
+      internalID: 8860618229184822564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hand-shaped Altar (Pick up) Sheet_0: 4867419012341842567
+      Hand-shaped Altar (Pick up) Sheet_1: -3544707374515182945
+      Hand-shaped Altar (Pick up) Sheet_10: 6928593385618451775
+      Hand-shaped Altar (Pick up) Sheet_11: -402136738162933777
+      Hand-shaped Altar (Pick up) Sheet_12: -8135515514772593773
+      Hand-shaped Altar (Pick up) Sheet_13: -6272084788163349914
+      Hand-shaped Altar (Pick up) Sheet_14: -3305782880345538602
+      Hand-shaped Altar (Pick up) Sheet_15: -8614328642882339334
+      Hand-shaped Altar (Pick up) Sheet_16: 630812755200459116
+      Hand-shaped Altar (Pick up) Sheet_17: 5902963967960560752
+      Hand-shaped Altar (Pick up) Sheet_18: -8217441720008174628
+      Hand-shaped Altar (Pick up) Sheet_19: -7097945426519126319
+      Hand-shaped Altar (Pick up) Sheet_2: -5391306746719954994
+      Hand-shaped Altar (Pick up) Sheet_20: 6786522899452503015
+      Hand-shaped Altar (Pick up) Sheet_21: -4049887120966750537
+      Hand-shaped Altar (Pick up) Sheet_22: -3679694519915465231
+      Hand-shaped Altar (Pick up) Sheet_23: 8860618229184822564
+      Hand-shaped Altar (Pick up) Sheet_3: -359547465771590899
+      Hand-shaped Altar (Pick up) Sheet_4: -2874132364445052207
+      Hand-shaped Altar (Pick up) Sheet_5: 1791050447720530690
+      Hand-shaped Altar (Pick up) Sheet_6: -6739624303363087708
+      Hand-shaped Altar (Pick up) Sheet_7: 8403677948437840941
+      Hand-shaped Altar (Pick up) Sheet_8: -3993441831617912396
+      Hand-shaped Altar (Pick up) Sheet_9: 2718426604442990247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

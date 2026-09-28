@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: fbf11b363b9d3534895677ef8ea408b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8646230726613060110
+    second: Activated Brain Sheet_0
+  - first:
+      213: -8986649511431359714
+    second: Activated Brain Sheet_1
+  - first:
+      213: 2320043946059354553
+    second: Activated Brain Sheet_2
+  - first:
+      213: -1149235630563934579
+    second: Activated Brain Sheet_3
+  - first:
+      213: 532401772152544525
+    second: Activated Brain Sheet_4
+  - first:
+      213: 4430550430177841287
+    second: Activated Brain Sheet_5
+  - first:
+      213: 7986855885824666844
+    second: Activated Brain Sheet_6
+  - first:
+      213: -4740125038465950660
+    second: Activated Brain Sheet_7
+  - first:
+      213: 7074901258646273574
+    second: Activated Brain Sheet_8
+  - first:
+      213: 5486995838155339054
+    second: Activated Brain Sheet_9
+  - first:
+      213: -4686345555327329503
+    second: Activated Brain Sheet_10
+  - first:
+      213: -6027379443966263997
+    second: Activated Brain Sheet_11
+  - first:
+      213: 142649603514091554
+    second: Activated Brain Sheet_12
+  - first:
+      213: 3845610497002445597
+    second: Activated Brain Sheet_13
+  - first:
+      213: 674024944582500753
+    second: Activated Brain Sheet_14
+  - first:
+      213: -5593076691328014801
+    second: Activated Brain Sheet_15
+  - first:
+      213: -532540485311242549
+    second: Activated Brain Sheet_16
+  - first:
+      213: 8850169056130610027
+    second: Activated Brain Sheet_17
+  - first:
+      213: 4547389656477118877
+    second: Activated Brain Sheet_18
+  - first:
+      213: -826583640662657409
+    second: Activated Brain Sheet_19
+  - first:
+      213: 2303219758440726485
+    second: Activated Brain Sheet_20
+  - first:
+      213: -4652051379943084629
+    second: Activated Brain Sheet_21
+  - first:
+      213: -1061220492790650161
+    second: Activated Brain Sheet_22
+  - first:
+      213: 8686307810326045349
+    second: Activated Brain Sheet_23
+  - first:
+      213: 7602660730584696833
+    second: Activated Brain Sheet_24
+  - first:
+      213: 2257632334564101657
+    second: Activated Brain Sheet_25
+  - first:
+      213: -2015950676388418800
+    second: Activated Brain Sheet_26
+  - first:
+      213: -4140011431568472359
+    second: Activated Brain Sheet_27
+  - first:
+      213: -5792690052638353223
+    second: Activated Brain Sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Activated Brain Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5392eb6fa620880800000000000000
+      internalID: -8646230726613060110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e133236f1e1094380800000000000000
+      internalID: -8986649511431359714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1d9244da3723020800000000000000
+      internalID: 2320043946059354553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eb30d68481d00f0800000000000000
+      internalID: -1149235630563934579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dd0fa4798736700800000000000000
+      internalID: 532401772152544525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7805436642a7c7d30800000000000000
+      internalID: 4430550430177841287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc21daac1307de60800000000000000
+      internalID: 7986855885824666844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c5d4b4461b73eb0800000000000000
+      internalID: -4740125038465950660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 176
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e3396d5391f2260800000000000000
+      internalID: 7074901258646273574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25bb49b4a9b52c40800000000000000
+      internalID: 5486995838155339054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bdbf7fb81c6feb0800000000000000
+      internalID: -4686345555327329503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d36e384527a5ca0800000000000000
+      internalID: -6027379443966263997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228cec00f0bcaf100800000000000000
+      internalID: 142649603514091554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b18524f5a5e5530800000000000000
+      internalID: 3845610497002445597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a79fad1e9a5900800000000000000
+      internalID: 674024944582500753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2660e3f1666162b0800000000000000
+      internalID: -5593076691328014801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce528800490c98f0800000000000000
+      internalID: -532540485311242549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63b1d8cddd12da70800000000000000
+      internalID: 8850169056130610027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91ba99acc29b1f30800000000000000
+      internalID: 4547389656477118877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f763729ee826784f0800000000000000
+      internalID: -826583640662657409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df3585da2ea6ff10800000000000000
+      internalID: 2303219758440726485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 0
+        width: 176
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad60a5eae7907fb0800000000000000
+      internalID: -4652051379943084629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 0
+        width: 176
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca29da9599c541f0800000000000000
+      internalID: -1061220492790650161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 0
+        width: 176
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a26f247ee6fb8870800000000000000
+      internalID: 8686307810326045349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 176
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108005267a3128960800000000000000
+      internalID: 7602660730584696833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e012795a8b45f10800000000000000
+      internalID: 2257632334564101657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01be8217a87e504e0800000000000000
+      internalID: -2015950676388418800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4752
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d60e47a989bb86c0800000000000000
+      internalID: -4140011431568472359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Activated Brain Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 0
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b85d8e861b3c9fa0800000000000000
+      internalID: -5792690052638353223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Activated Brain Sheet_0: -8646230726613060110
+      Activated Brain Sheet_1: -8986649511431359714
+      Activated Brain Sheet_10: -4686345555327329503
+      Activated Brain Sheet_11: -6027379443966263997
+      Activated Brain Sheet_12: 142649603514091554
+      Activated Brain Sheet_13: 3845610497002445597
+      Activated Brain Sheet_14: 674024944582500753
+      Activated Brain Sheet_15: -5593076691328014801
+      Activated Brain Sheet_16: -532540485311242549
+      Activated Brain Sheet_17: 8850169056130610027
+      Activated Brain Sheet_18: 4547389656477118877
+      Activated Brain Sheet_19: -826583640662657409
+      Activated Brain Sheet_2: 2320043946059354553
+      Activated Brain Sheet_20: 2303219758440726485
+      Activated Brain Sheet_21: -4652051379943084629
+      Activated Brain Sheet_22: -1061220492790650161
+      Activated Brain Sheet_23: 8686307810326045349
+      Activated Brain Sheet_24: 7602660730584696833
+      Activated Brain Sheet_25: 2257632334564101657
+      Activated Brain Sheet_26: -2015950676388418800
+      Activated Brain Sheet_27: -4140011431568472359
+      Activated Brain Sheet_28: -5792690052638353223
+      Activated Brain Sheet_3: -1149235630563934579
+      Activated Brain Sheet_4: 532401772152544525
+      Activated Brain Sheet_5: 4430550430177841287
+      Activated Brain Sheet_6: 7986855885824666844
+      Activated Brain Sheet_7: -4740125038465950660
+      Activated Brain Sheet_8: 7074901258646273574
+      Activated Brain Sheet_9: 5486995838155339054
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -34,6 +34,8 @@ public sealed class PlayerAttack : MonoBehaviour
 
     public bool TryStart(string facing)
     {
+        if (PlayerUI.GameplayBlocked || (UnityEngine.EventSystems.EventSystem.current != null &&
+            UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())) return false;
         if (!isActiveAndEnabled || IsAttacking || !attackAction.WasPressedThisFrame()) return false;
         elapsed = 0f;
         hitTargets.Clear();

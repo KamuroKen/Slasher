@@ -35,6 +35,7 @@ public sealed class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (PlayerUI.GameplayBlocked) { InterruptActions(); return; }
         if (Time.time < hurtUntil) return;
         // Movement drives the attack tick so damage, input and animation have a fixed order.
         if (attack.Advance()) return;

@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 6a02a2c7f08b1b94d881d6d0cb58caf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8653282697651909264
+    second: Eye 2 Sheet_0
+  - first:
+      213: -995842109478016070
+    second: Eye 2 Sheet_1
+  - first:
+      213: 3838048503746461580
+    second: Eye 2 Sheet_2
+  - first:
+      213: 8257736986363889235
+    second: Eye 2 Sheet_3
+  - first:
+      213: 9061065923651887813
+    second: Eye 2 Sheet_4
+  - first:
+      213: -8419236647932939283
+    second: Eye 2 Sheet_5
+  - first:
+      213: 2790427409283362752
+    second: Eye 2 Sheet_6
+  - first:
+      213: 5245494489287687990
+    second: Eye 2 Sheet_7
+  - first:
+      213: -6013091484002702321
+    second: Eye 2 Sheet_8
+  - first:
+      213: -6977029617675292328
+    second: Eye 2 Sheet_9
+  - first:
+      213: -6453669606895331897
+    second: Eye 2 Sheet_10
+  - first:
+      213: 2538723618011323850
+    second: Eye 2 Sheet_11
+  - first:
+      213: -1495659033316350039
+    second: Eye 2 Sheet_12
+  - first:
+      213: 4796113280067850785
+    second: Eye 2 Sheet_13
+  - first:
+      213: 715388170324497333
+    second: Eye 2 Sheet_14
+  - first:
+      213: 3405256327060708355
+    second: Eye 2 Sheet_15
+  - first:
+      213: -2514158666817750071
+    second: Eye 2 Sheet_16
+  - first:
+      213: -8045075344634313442
+    second: Eye 2 Sheet_17
+  - first:
+      213: -5088124541110804552
+    second: Eye 2 Sheet_18
+  - first:
+      213: -5577898737365234213
+    second: Eye 2 Sheet_19
+  - first:
+      213: -1104030660307026628
+    second: Eye 2 Sheet_20
+  - first:
+      213: -3180524564324722297
+    second: Eye 2 Sheet_21
+  - first:
+      213: -1251470414771800606
+    second: Eye 2 Sheet_22
+  - first:
+      213: -1091147661975502231
+    second: Eye 2 Sheet_23
+  - first:
+      213: 6439001809168057200
+    second: Eye 2 Sheet_24
+  - first:
+      213: -3476918168473111673
+    second: Eye 2 Sheet_25
+  - first:
+      213: -1545475647125972968
+    second: Eye 2 Sheet_26
+  - first:
+      213: 2945786654066319269
+    second: Eye 2 Sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eye 2 Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092739634c2a61870800000000000000
+      internalID: 8653282697651909264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbef2ca0ee0e22f0800000000000000
+      internalID: -995842109478016070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ff68087cc734530800000000000000
+      internalID: 3838048503746461580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35603d8a900699270800000000000000
+      internalID: 8257736986363889235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2eaa1337f5fbd70800000000000000
+      internalID: 9061065923651887813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3b10030ecd82b80800000000000000
+      internalID: -8419236647932939283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf29d5c1f699b620800000000000000
+      internalID: 2790427409283362752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ff249327dbbc840800000000000000
+      internalID: 5245494489287687990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ca71e67253d8ca0800000000000000
+      internalID: -6013091484002702321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851b513578c9c2f90800000000000000
+      internalID: -6977029617675292328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5d44f7fa5ff66a0800000000000000
+      internalID: -6453669606895331897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd957a0eab5b3320800000000000000
+      internalID: 2538723618011323850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72316980a5e3be0800000000000000
+      internalID: -1495659033316350039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1225af80e973f8240800000000000000
+      internalID: 4796113280067850785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b355b820c19de900800000000000000
+      internalID: 715388170324497333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cda9f6696e14f20800000000000000
+      internalID: 3405256327060708355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbbb5b530aeb1dd0800000000000000
+      internalID: -2514158666817750071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1581d349962a5090800000000000000
+      internalID: -8045075344634313442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf942a10b95369b0800000000000000
+      internalID: -5088124541110804552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddce3eb6a25792b0800000000000000
+      internalID: -5577898737365234213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d724fb6f1bda0f0800000000000000
+      internalID: -1104030660307026628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789550882c18cd3d0800000000000000
+      internalID: -3180524564324722297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5bd90d942e1aee0800000000000000
+      internalID: -1251470414771800606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962c37a8bf67bd0f0800000000000000
+      internalID: -1091147661975502231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0734f87b70eeb5950800000000000000
+      internalID: 6439001809168057200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783fe07e8518fbfc0800000000000000
+      internalID: -3476918168473111673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8181a04561e5d8ae0800000000000000
+      internalID: -1545475647125972968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye 2 Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af95bbba5981e820800000000000000
+      internalID: 2945786654066319269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Eye 2 Sheet_0: 8653282697651909264
+      Eye 2 Sheet_1: -995842109478016070
+      Eye 2 Sheet_10: -6453669606895331897
+      Eye 2 Sheet_11: 2538723618011323850
+      Eye 2 Sheet_12: -1495659033316350039
+      Eye 2 Sheet_13: 4796113280067850785
+      Eye 2 Sheet_14: 715388170324497333
+      Eye 2 Sheet_15: 3405256327060708355
+      Eye 2 Sheet_16: -2514158666817750071
+      Eye 2 Sheet_17: -8045075344634313442
+      Eye 2 Sheet_18: -5088124541110804552
+      Eye 2 Sheet_19: -5577898737365234213
+      Eye 2 Sheet_2: 3838048503746461580
+      Eye 2 Sheet_20: -1104030660307026628
+      Eye 2 Sheet_21: -3180524564324722297
+      Eye 2 Sheet_22: -1251470414771800606
+      Eye 2 Sheet_23: -1091147661975502231
+      Eye 2 Sheet_24: 6439001809168057200
+      Eye 2 Sheet_25: -3476918168473111673
+      Eye 2 Sheet_26: -1545475647125972968
+      Eye 2 Sheet_27: 2945786654066319269
+      Eye 2 Sheet_3: 8257736986363889235
+      Eye 2 Sheet_4: 9061065923651887813
+      Eye 2 Sheet_5: -8419236647932939283
+      Eye 2 Sheet_6: 2790427409283362752
+      Eye 2 Sheet_7: 5245494489287687990
+      Eye 2 Sheet_8: -6013091484002702321
+      Eye 2 Sheet_9: -6977029617675292328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -221,7 +221,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f40fc62679ca4bc45a9e61b1696a8f63, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  m_EditorClassIdentifier: Assembly-CSharp::BatController
   detectionRadius: 6
   loseTargetRadius: 8
   moveSpeed: 2.5

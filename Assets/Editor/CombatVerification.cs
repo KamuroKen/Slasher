@@ -87,7 +87,7 @@ public sealed class CombatVerificationRunner : MonoBehaviour
         var p=GameObject.FindGameObjectWithTag("Player");
         var ph=p.GetComponent<PlayerHealth>(); var pm=p.GetComponent<PlayerMovement>(); var attack=p.GetComponent<PlayerAttack>();
         var pb=p.GetComponent<Rigidbody2D>(); var pa=p.GetComponent<Animator>();
-        var bat=FindFirstObjectByType<EnemyController>(); var bb=bat.GetComponent<Rigidbody2D>(); var bh=bat.GetComponent<Damageable>();
+        var bat=FindFirstObjectByType<BatController>(); var bb=bat.GetComponent<Rigidbody2D>(); var bh=bat.GetComponent<Damageable>();
         var arena = FindFirstObjectByType<ArenaBounds>();
         Check(arena != null && attack != null && p.GetComponent<PlayerHealthDisplay>() != null, "Refactored components wired in scene");
         Check(arena.Clamp(new Vector2(30, -30), Vector2.one * .5f) == new Vector2(15.5f, -9.5f), "Shared bounds preserve actor inset");

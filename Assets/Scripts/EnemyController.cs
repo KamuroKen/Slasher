@@ -1,8 +1,9 @@
 using UnityEngine;
 
+[DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(Damageable))]
 [RequireComponent(typeof(SpriteHitFlash))]
-public sealed class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public enum BehaviourState { Idle, Chase, Attack, Recovery, Hit, Dead }
     [SerializeField, Min(0f)] private float detectionRadius = 6f;
@@ -21,6 +22,10 @@ public sealed class EnemyController : MonoBehaviour
     private ArenaBounds arena;
     private Rigidbody2D body;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
+    protected virtual string MovingAction => "Walk";
+    protected virtual bool DirectionalDeath => true;
+    protected virtual bool MirrorWest => true;
     private Damageable health;
     private SpriteHitFlash flash;
     private PlayerHealth target;
@@ -31,29 +36,30 @@ public sealed class EnemyController : MonoBehaviour
     private int animationState;
     public BehaviourState State { get; private set; }
 
-    private void Awake()
+    protected virtual void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         arena = FindFirstObjectByType<ArenaBounds>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         health = GetComponent<Damageable>();
         flash = GetComponent<SpriteHitFlash>();
     }
-    private void OnEnable() { health.Damaged += OnDamaged; health.Died += OnDied; }
-    private void OnDisable()
+    protected virtual void OnEnable() { health.Damaged += OnDamaged; health.Died += OnDied; }
+    protected virtual void OnDisable()
     {
         health.Damaged -= OnDamaged; health.Died -= OnDied;
         velocity = Vector2.zero;
         if (body != null && body.simulated) body.linearVelocity = Vector2.zero;
     }
-    private void Start()
+    protected virtual void Start()
     {
         var player = GameObject.FindGameObjectWithTag("Player");
         if (player != null) target = player.GetComponent<PlayerHealth>();
-        Play("Idle_" + facing);
+        PlayAction("Idle");
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         stateTime += Time.deltaTime;
         velocity = Vector2.zero;
@@ -113,7 +119,7 @@ public sealed class EnemyController : MonoBehaviour
             Rest(BehaviourState.Idle);
             return;
         }
-        Face(toPlayer);
+        facing = SelectFacing(toPlayer);
         if (distance <= attackDistance)
         {
             if (Time.time < nextAttackTime)
@@ -125,15 +131,15 @@ public sealed class EnemyController : MonoBehaviour
             hitResolved = false;
             nextAttackTime = Time.time + attackSeconds + attackCooldown;
             Enter(BehaviourState.Attack);
-            Play("Attack_"+facing, true);
+            PlayAction("Attack", true);
             return;
         }
         Enter(BehaviourState.Chase);
         velocity = toPlayer.normalized * moveSpeed;
-        Play("Idle_" + facing);
+        PlayAction(MovingAction);
     }
 
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if (State == BehaviourState.Dead) return;
         Vector2 step = State == BehaviourState.Hit ? knockback : velocity;
@@ -149,7 +155,7 @@ public sealed class EnemyController : MonoBehaviour
         knockback = (away.sqrMagnitude > 0.001f ? away.normalized : -Direction(facing)) * knockbackSpeed;
         nextAttackTime = Time.time + hitStunSeconds + attackCooldown;
         Enter(BehaviourState.Hit);
-        Play("Hit_"+facing, true);
+        PlayAction("Hit", true);
         flash.Play();
     }
     private void OnDied()
@@ -160,12 +166,12 @@ public sealed class EnemyController : MonoBehaviour
         body.simulated = false;
         foreach (var collider in GetComponentsInChildren<Collider2D>()) collider.enabled = false;
         flash.Stop();
-        Play("Death", true);
+        PlayAction("Death", true);
     }
     private void Rest(BehaviourState state)
     {
         Enter(state);
-        Play("Idle_" + facing);
+        PlayAction("Idle");
     }
 
     private void Enter(BehaviourState next)
@@ -174,19 +180,49 @@ public sealed class EnemyController : MonoBehaviour
         State = next;
         stateTime = 0f;
     }
-    private void Face(Vector2 direction)
+    // Five authored directions form eight views by mirroring the western ones.
+    protected virtual string SelectFacing(Vector2 direction)
     {
-        if (direction.sqrMagnitude < 0.001f) return;
-        facing = Mathf.Abs(direction.x) > Mathf.Abs(direction.y) ? (direction.x>0 ? "Right":"Left") : (direction.y>0 ? "Up":"Down");
+        if (direction.sqrMagnitude < 0.001f) return facing;
+        int sector = (Mathf.RoundToInt(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg / 45f) + 8) % 8;
+        switch (sector)
+        {
+            case 0: return "Right";
+            case 1: return "UpRight";
+            case 2: return "Up";
+            case 3: return "UpLeft";
+            case 4: return "Left";
+            case 5: return "DownLeft";
+            case 6: return "Down";
+            default: return "DownRight";
+        }
     }
-    private static Vector2 Direction(string direction) => direction == "Up" ? Vector2.up : direction == "Down" ? Vector2.down : direction == "Right" ? Vector2.right : Vector2.left;
+
+    private static Vector2 Direction(string direction)
+    {
+        float x = direction.Contains("Right") ? 1f : direction.Contains("Left") ? -1f : 0f;
+        float y = direction.Contains("Up") ? 1f : direction.Contains("Down") ? -1f : 0f;
+        return new Vector2(x, y).normalized;
+    }
+
+    private void PlayAction(string action, bool restart = false)
+    {
+        string animationFacing = facing;
+        if (MirrorWest)
+        {
+            spriteRenderer.flipX = facing.Contains("Left");
+            animationFacing = facing.Replace("Left", "Right");
+        }
+        string state = action == "Death" && !DirectionalDeath ? action : action + "_" + animationFacing;
+        Play(state, restart);
+    }
     private void Play(string state, bool restart = false)
     {
         int hash = Animator.StringToHash(state);
         if (!restart && animationState == hash) return;
         animator.Play(hash, 0, 0f); animationState = hash;
     }
-    private void OnDrawGizmosSelected()
+    protected virtual void OnDrawGizmosSelected()
     {
         Gizmos.color = new Color(1f,0.8f,0.2f,0.6f); Gizmos.DrawWireSphere(transform.position, detectionRadius);
         Gizmos.color = Color.red; Gizmos.DrawWireSphere(transform.position, attackDistance);

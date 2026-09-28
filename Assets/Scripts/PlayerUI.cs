@@ -30,7 +30,7 @@ public sealed class PlayerUI : MonoBehaviour
     int hovered = -1, selected = -1, pressed = -1;
     Vector2 pressPosition;
     bool dragging, reloading;
-    float previousTimeScale = 1, detailTop, flash;
+    float previousTimeScale = 1, detailTop, flash, detailScroll, detailContentHeight;
     ItemDefinition shownItem;
     readonly List<RaycastResult> hits = new();
     static readonly Color Cream = new(1, .91f, .79f);
@@ -110,8 +110,9 @@ public sealed class PlayerUI : MonoBehaviour
             pressed = -1; dragging = false; RefreshInventory();
         }
         if (CurrentScreen == Screen.Inventory && target >= 20 && mouse.rightButton.wasPressedThisFrame) Inventory.Assign(target - 20, null);
-        if (CurrentScreen == Screen.Inventory && mouse.scroll.ReadValue().y != 0)
-            detailText.pageToDisplay = Mathf.Clamp(detailText.pageToDisplay + (mouse.scroll.ReadValue().y < 0 ? 1 : -1), 1, Mathf.Max(1, detailText.textInfo.pageCount));
+        if (CurrentScreen == Screen.Inventory && mouse.scroll.ReadValue().y != 0 &&
+            RectTransformUtility.RectangleContainsScreenPoint(detail, mouse.position.ReadValue()))
+            ScrollDetails(-Mathf.Sign(mouse.scroll.ReadValue().y) * 48);
     }
     public void SetScreen(Screen screen)
     {
@@ -172,9 +173,18 @@ public sealed class PlayerUI : MonoBehaviour
         {
             var image = i < 20 ? slots[i] : quick[i - 20]; var item = ItemAt(i);
             int count = i < 20 ? Inventory.Get(i)?.count ?? 0 : Inventory.Count(item);
-            image.color = i == selected || i == hovered ? Cream : item != null ? new Color(1, .85f, .66f) : Color.white;
-            var label = image.GetComponentInChildren<TMP_Text>(true);
-            if (label != null) label.text = (i >= 20 ? (i - 19).ToString() : "") + (item != null ? "\n<size=18>" + count + "</size>" : "");
+            bool depleted = item != null && count == 0;
+            image.color = depleted ? new Color(.55f, .55f, .55f) : i == selected || i == hovered ? Cream : item != null ? new Color(1, .85f, .66f) : Color.white;
+            var labels = image.GetComponentsInChildren<TMP_Text>(true);
+            var quantity = labels.FirstOrDefault(t => t.name == "Count");
+            if (quantity != null) { quantity.text = count.ToString(); quantity.enabled = item != null; }
+            var key = labels.FirstOrDefault(t => t.name == "Key");
+            if (key != null) key.text = (i - 19).ToString();
+            // Older saved canvases can still display their combined label.
+            if (quantity == null && key == null && labels.Length > 0)
+                labels[0].text = (i >= 20 ? (i - 19).ToString() : "") + (item != null ? "\n<size=18>" + count + "</size>" : "");
+            var icon = image.transform.Find("Icon")?.GetComponent<Image>();
+            if (icon != null) { icon.sprite = item != null ? item.icon : null; icon.enabled = icon.sprite != null; icon.color = depleted ? new Color(1, 1, 1, .35f) : Color.white; }
         }
     }
     void ShowItem(ItemDefinition item)
@@ -182,11 +192,20 @@ public sealed class PlayerUI : MonoBehaviour
         shownItem = item; detail.gameObject.SetActive(true);
         detailText.text = item == null ? "<size=32>Item Details</size>\n\nHover over an item to inspect it.\n\nPress 1–4 while hovering to assign a quick slot."
             : "<size=32>" + item.displayName + "</size>\n\n" + item.description + (string.IsNullOrWhiteSpace(item.statistics) ? "" : "\n\n<color=#FFE3AD>Stats</color>\n" + item.statistics) + "\n\n<color=#FFE3AD>1–4 — Assign quick slot</color>";
-        float height = Mathf.Clamp(detailText.GetPreferredValues(detailText.text, detail.rect.width - 64, 0).y + 64, 240, 620);
+        detailContentHeight = detailText.GetPreferredValues(detailText.text, detailText.rectTransform.rect.width, 0).y;
+        float height = Mathf.Clamp(detailContentHeight + 64, 240, 620);
         detail.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
         detail.anchoredPosition = new Vector2(detail.anchoredPosition.x, detailTop - height * .5f);
-        detailText.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height - 64);
-        detailText.overflowMode = TextOverflowModes.Page; detailText.pageToDisplay = 1; detailText.ForceMeshUpdate();
+        detailContentHeight = Mathf.Max(detailContentHeight, height - 64);
+        detailText.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, detailContentHeight);
+        detailText.overflowMode = TextOverflowModes.Overflow;
+        detailScroll = 0; ScrollDetails(0); detailText.ForceMeshUpdate();
+    }
+    public void ScrollDetails(float amount)
+    {
+        detailScroll = Mathf.Clamp(detailScroll + amount, 0, Mathf.Max(0, detailContentHeight - (detail.rect.height - 64)));
+        var rect = detailText.rectTransform;
+        rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, (detail.rect.height - detailContentHeight) * .5f - 32 + detailScroll);
     }
     void Use(ItemDefinition item) { if (item != null && Inventory.Use(item, health)) RefreshInventory(); }
     public void Restart() { reloading = true; Time.timeScale = 1; SceneManager.LoadScene(SceneManager.GetActiveScene().path); }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec585e755c244349a351a20e3e9712b, type: 3}
+  m_Name: key_gate
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  id: key_gate
+  category: 1
+  rarity: 0
+  displayName: Gate Key
+  description: Heavy and cold. The crest on the back belongs to a house that no longer
+    exists.
+  icon: {fileID: 3675549426537908290, guid: 1d33a4e051807884082f4b779d196c02, type: 3}
+  maxStack: 1
+  healing: 0
+  useCooldown: 0.5

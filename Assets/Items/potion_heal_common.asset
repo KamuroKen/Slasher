@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec585e755c244349a351a20e3e9712b, type: 3}
+  m_Name: potion_heal_common
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  id: potion_heal_common
+  category: 0
+  rarity: 0
+  displayName: Healing Draught
+  description: Bitter, thick, and tastes of iron. It closes wounds faster than you'd
+    like to know.
+  icon: {fileID: -1137121592, guid: 98d8e78c42981a649ac22737e7ec51b6, type: 3}
+  maxStack: 5
+  healing: 25
+  useCooldown: 0.5

@@ -347,6 +347,14 @@ MonoBehaviour:
       chance: 0.5
       min: 2
       max: 4
+    - item: {fileID: 11400000, guid: 747b871d2389585468f865f9755daf5d, type: 2}
+      chance: 0.1
+      min: 1
+      max: 1
+    - item: {fileID: 11400000, guid: c3fedecf33c0f1b498446edce3a6fe42, type: 2}
+      chance: 0.1
+      min: 1
+      max: 1
   neverEmpty: 1
   frames:
   - {fileID: 2021638506, guid: 2b11d81e9ab99c345a98d1c052688403, type: 3}

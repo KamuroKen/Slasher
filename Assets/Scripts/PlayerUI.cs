@@ -35,7 +35,9 @@ public sealed class PlayerUI : MonoBehaviour
     TMP_Text menuTitle;
     Damageable health;
     Screen settingsReturn;
-    int hovered = -1, selected = -1, pressed = -1;
+    int hovered = -1, selected = -1, pressed = -1, lastClickSlot = -1;
+    float lastClickTime = float.NegativeInfinity;
+    const float DoubleClickSeconds = .35f;
     Vector2 pressPosition;
     bool dragging, reloading, runStarted, levelComplete;
     bool? fullscreenTarget;
@@ -76,9 +78,9 @@ public sealed class PlayerUI : MonoBehaviour
         for (int i = 0; i < 3; i++) { int action = i; menuButtons[i].onClick.AddListener(() => MenuAction(action)); }
         foreach (var button in inventoryWindow.GetComponentsInChildren<Button>(true))
         {
-            // Healing happens only through quick slots, so the old Use button is hidden.
-            if (button.name == "button 1") button.gameObject.SetActive(false);
-            else { if (button.name == "button 2") Label(button, "Close"); button.onClick.AddListener(() => SetScreen(Screen.Gameplay)); }
+            // The old Use and Close buttons are hidden: potions are used by double-click or quick slots, the X closes.
+            if (button.name == "button 1" || button.name == "button 2") button.gameObject.SetActive(false);
+            else button.onClick.AddListener(() => SetScreen(Screen.Gameplay));
         }
         foreach (var button in GetComponentsInChildren<Button>(true)) button.navigation = new Navigation { mode = Navigation.Mode.None };
         quickActions = new InputAction[QuickCount];
@@ -147,6 +149,12 @@ public sealed class PlayerUI : MonoBehaviour
         var item = Inventory.Quick(index);
         if (item != null) Feedback(SlotCount + index, Inventory.Use(item, health));
     }
+    // Double-click in the inventory: uses the item in that bag or quick slot; keys and offerings refuse (Deny).
+    void UseSlot(int slot)
+    {
+        var item = ItemAt(slot);
+        if (item != null) Feedback(slot, Inventory.Use(item, health));
+    }
     void Feedback(int slot, bool success) { if (success) views[slot].Pulse(); else views[slot].Deny(); }
     ItemDefinition ItemAt(int i) => i < 0 ? null : i < SlotCount ? Inventory.Get(i)?.item : Inventory.Quick(i - SlotCount);
     void UpdatePointer()
@@ -185,7 +193,15 @@ public sealed class PlayerUI : MonoBehaviour
                     // Dragging a quick slot out onto nothing clears it.
                     else if (target < 0 && pressed >= SlotCount) Inventory.Assign(pressed - SlotCount, null);
                 }
-                else if (target >= 0 && target == pressed) { selected = target; ShowItem(ItemAt(target)); }
+                else if (target >= 0 && target == pressed)
+                {
+                    // A second click on the same slot soon after the first uses the item (elixirs, potions, food).
+                    bool doubleClick = target == lastClickSlot && Time.unscaledTime - lastClickTime <= DoubleClickSeconds;
+                    lastClickSlot = doubleClick ? -1 : target; lastClickTime = Time.unscaledTime;
+                    selected = target;
+                    if (doubleClick) UseSlot(target);
+                    ShowItem(ItemAt(target));
+                }
             }
             else if (!GameplayBlocked && !dragging && target >= SlotCount && target == pressed) UseQuick(target - SlotCount);
             pressed = -1; dragging = false; RefreshInventory();
@@ -296,7 +312,7 @@ public sealed class PlayerUI : MonoBehaviour
     {
         detail.gameObject.SetActive(true);
         detailText.text = item == null
-            ? "<size=32>Item Details</size>\n\nHover over an item to inspect it.\n\n<color=#9A8F84>Press 1-4 over a potion to put it in a quick slot.\nPress 1-4 anywhere else to use that quick slot.</color>"
+            ? "<size=32>Item Details</size>\n\nHover over an item to inspect it.\n\n<color=#9A8F84>Double-click an item to use it.\nPress 1-4 over a potion to put it in a quick slot.\nPress 1-4 anywhere else to use that quick slot.</color>"
             : Describe(item);
         detailContentHeight = detailText.GetPreferredValues(detailText.text, detailText.rectTransform.rect.width, 0).y;
         float height = Mathf.Clamp(detailContentHeight + 64, 240, 620);
@@ -315,7 +331,7 @@ public sealed class PlayerUI : MonoBehaviour
         string effect = item.EffectText;
         if (item.maxStack > 1) effect += (effect.Length > 0 ? "\n" : "") + "Stacks up to " + item.maxStack;
         if (effect.Length > 0) text += "\n\n<color=#FFE3AD>" + effect + "</color>";
-        if (item.CanQuickSlot) text += "\n\n<color=#9A8F84>1-4 while hovering - assign quick slot</color>";
+        if (item.CanQuickSlot) text += "\n\n<color=#9A8F84>Double-click - use\n1-4 while hovering - assign quick slot</color>";
         return text;
     }
     // Item texts always use the short dash, even if a long one was typed in the asset.

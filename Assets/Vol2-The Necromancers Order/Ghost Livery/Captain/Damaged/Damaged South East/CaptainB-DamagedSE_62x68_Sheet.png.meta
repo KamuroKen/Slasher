@@ -136,7 +136,7 @@ TextureImporter:
         width: 33
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,7 +158,7 @@ TextureImporter:
         width: 33
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,7 +180,7 @@ TextureImporter:
         width: 40
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,7 +202,7 @@ TextureImporter:
         width: 42
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,7 +224,7 @@ TextureImporter:
         width: 33
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,7 +246,7 @@ TextureImporter:
         width: 33
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,11 +259,143 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8749fb4771b31fb4093af8bba0d84662
+      internalID: 2086964029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell01
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b33239007871a4fbe17cb960f495f2
+      internalID: -721609413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell02
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2381a4aa2d88c4d8e04d8979668a01
+      internalID: 1559473053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell03
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b82bb4b1c49e0439c5f1d97356d9fa
+      internalID: -790688885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell04
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7531a28eb5adb4f8c4e339e15d2ab2
+      internalID: 3014740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainB-DamagedSE_62x68_Sheet_cell05
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20588236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7eb0c5fd472f244a0b5eed37eab877
+      internalID: -1673293175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b69a30fdd9cc9f0488e4447c53eb4244
     internalID: 0
     vertices: []
     indices: 
@@ -279,6 +411,12 @@ TextureImporter:
       CaptainB-DamagedSE_62x68_Sheet_3: -1677427428851784464
       CaptainB-DamagedSE_62x68_Sheet_4: -1638143220841114001
       CaptainB-DamagedSE_62x68_Sheet_5: 7405376356340114249
+      CaptainB-DamagedSE_62x68_Sheet_cell00: 2086964029
+      CaptainB-DamagedSE_62x68_Sheet_cell01: -721609413
+      CaptainB-DamagedSE_62x68_Sheet_cell02: 1559473053
+      CaptainB-DamagedSE_62x68_Sheet_cell03: -790688885
+      CaptainB-DamagedSE_62x68_Sheet_cell04: 3014740
+      CaptainB-DamagedSE_62x68_Sheet_cell05: -1673293175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -188,7 +188,7 @@ MonoBehaviour:
   reach: 0.75
   openOnTouch: 0
   prompt: {fileID: 8419052445212483558}
-  dropOffset: {x: 0, y: -0.9}
+  dropOffset: {x: 0, y: -1}
   scatter: 0.4
 --- !u!1 &6550656565722586747
 GameObject:

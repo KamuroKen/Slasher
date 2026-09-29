@@ -27,6 +27,15 @@ public sealed class Damageable : MonoBehaviour
         return true;
     }
 
+    // Permanent growth (elixirs, altar): the new health is also filled up.
+    public void IncreaseMaxHealth(int amount)
+    {
+        if (amount <= 0) return;
+        maxHealth += amount;
+        if (!IsDead) currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+        HealthChanged?.Invoke();
+    }
+
     public bool TryTakeDamage(int amount, Vector2 sourcePosition)
     {
         if (!isActiveAndEnabled || amount <= 0 || IsDead || IsInvulnerable) return false;

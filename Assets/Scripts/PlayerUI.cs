@@ -11,7 +11,7 @@ using UnityEngine.UI;
 [DefaultExecutionOrder(-100)]
 public sealed class PlayerUI : MonoBehaviour
 {
-    public enum Screen { Gameplay, Inventory, Pause, Settings, MainMenu, Defeat }
+    public enum Screen { Gameplay, Inventory, Pause, Settings, MainMenu, Defeat, Victory }
     const int SlotCount = PlayerInventory.Capacity;
     const int QuickCount = PlayerInventory.QuickCapacity;
     const int TotalSlots = SlotCount + QuickCount;
@@ -37,7 +37,7 @@ public sealed class PlayerUI : MonoBehaviour
     Screen settingsReturn;
     int hovered = -1, selected = -1, pressed = -1;
     Vector2 pressPosition;
-    bool dragging, reloading, runStarted;
+    bool dragging, reloading, runStarted, levelComplete;
     bool? fullscreenTarget;
     float previousTimeScale = 1, detailTop, flash, detailScroll, detailContentHeight;
     readonly List<RaycastResult> hits = new();
@@ -62,8 +62,7 @@ public sealed class PlayerUI : MonoBehaviour
         dragGhost = Find("Drag Ghost")?.GetComponent<Image>();
         // Only direct children of the group are slots, so icons and labels inside a slot are never counted as slots.
         var group = Find("inventory slots");
-        var slotImages = group == null ? new Image[0] : group.Cast<Transform>().Select(t => t.GetComponent<Image>()).Where(i => i != null)
-            .OrderByDescending(i => Mathf.Round(i.rectTransform.localPosition.y)).ThenBy(i => i.rectTransform.localPosition.x).ToArray();
+        var slotImages = group == null ? new Image[0] : ReadingOrder(group.Cast<Transform>().Select(t => t.GetComponent<Image>()).Where(i => i != null));
         var quickImages = transform.Cast<Transform>().Where(t => t.name.StartsWith("inventory slot bordered")).Select(t => t.GetComponent<Image>())
             .Where(i => i != null).OrderBy(i => i.rectTransform.anchoredPosition.x).ToArray();
         if (health == null || Inventory == null || inventoryWindow == null || menuWindow == null || detailText == null || hpFill == null || slotImages.Length != SlotCount || quickImages.Length != QuickCount)
@@ -86,6 +85,21 @@ public sealed class PlayerUI : MonoBehaviour
         for (int i = 0; i < QuickCount; i++) quickActions[i] = new InputAction("Quick Slot " + (i + 1), InputActionType.Button, "<Keyboard>/" + (i + 1));
         if (dragGhost != null) { dragGhost.raycastTarget = false; dragGhost.preserveAspect = true; dragGhost.enabled = false; }
         AudioListener.volume = Mathf.Clamp01(PlayerPrefs.GetFloat("UI.MasterVolume", 1));
+    }
+    // Bag slots in reading order: rows top to bottom, left to right inside a row. Slots of one row may sit a few
+    // pixels apart vertically, so a row is everything within half a slot height of its highest slot.
+    static Image[] ReadingOrder(IEnumerable<Image> images)
+    {
+        var rows = new List<List<Image>>();
+        foreach (var image in images.OrderByDescending(i => i.rectTransform.localPosition.y))
+        {
+            var row = rows.Count > 0 ? rows[rows.Count - 1] : null;
+            float tolerance = Mathf.Max(10f, image.rectTransform.rect.height * .5f);
+            if (row == null || row[0].rectTransform.localPosition.y - image.rectTransform.localPosition.y > tolerance)
+                rows.Add(row = new List<Image>());
+            row.Add(image);
+        }
+        return rows.SelectMany(r => r.OrderBy(i => i.rectTransform.localPosition.x)).ToArray();
     }
     static InventorySlotView BindView(Image image)
     {
@@ -201,6 +215,7 @@ public sealed class PlayerUI : MonoBehaviour
     public void SetScreen(Screen screen)
     {
         if (health.IsDead && screen == Screen.Gameplay) screen = Screen.Defeat;
+        if (levelComplete && screen == Screen.Gameplay) screen = Screen.Victory;
         if (Pauses(screen)) { if (!Pauses(CurrentScreen)) previousTimeScale = Time.timeScale; Time.timeScale = 0; }
         else if (Pauses(CurrentScreen)) Time.timeScale = previousTimeScale;
         if (!Pauses(screen)) runStarted = true;
@@ -233,6 +248,7 @@ public sealed class PlayerUI : MonoBehaviour
                 title = "Settings"; labels = new[] { "Volume: " + Mathf.RoundToInt(AudioListener.volume * 100) + "%", fullscreen ? "Windowed" : "Fullscreen", "Back" }; break;
             case Screen.Pause: title = "Paused"; labels = new[] { "Resume", "Settings", "Main Menu" }; break;
             case Screen.Defeat: title = "Defeated"; labels = new[] { "Retry", "Main Menu", "Quit" }; break;
+            case Screen.Victory: title = "Victory"; labels = new[] { "Retry", "Main Menu", "Quit" }; break;
             default: title = "Main Menu"; labels = new[] { "Play", "Settings", "Quit" }; break;
         }
         if (menuTitle != null) menuTitle.text = title;
@@ -250,17 +266,19 @@ public sealed class PlayerUI : MonoBehaviour
         }
         if (action == 0)
         {
-            if (health.IsDead) Restart();
+            if (health.IsDead || levelComplete) Restart();
             // Play from the main menu starts a new run once a run is in progress; Resume in the pause menu continues it.
             else if (CurrentScreen == Screen.MainMenu && runStarted) Restart();
             else SetScreen(Screen.Gameplay);
         }
-        else if (action == 1) { if (CurrentScreen == Screen.Defeat) SetScreen(Screen.MainMenu); else { settingsReturn = CurrentScreen; SetScreen(Screen.Settings); } }
+        else if (action == 1) { if (CurrentScreen == Screen.Defeat || CurrentScreen == Screen.Victory) SetScreen(Screen.MainMenu); else { settingsReturn = CurrentScreen; SetScreen(Screen.Settings); } }
         else if (CurrentScreen == Screen.Pause) SetScreen(Screen.MainMenu); else Quit();
     }
     void RefreshHealth() => hpFill.fillAmount = Mathf.Clamp01((float)health.CurrentHealth / health.MaxHealth);
     void Damaged(Vector2 source) => flash = 1;
     void Died() { RefreshHealth(); SetScreen(Screen.Defeat); }
+    // The level exit calls this: the run is over, the menu offers Retry, Main Menu and Quit.
+    public void ShowVictory() { levelComplete = true; SetScreen(Screen.Victory); }
     public void RefreshInventory()
     {
         if (views == null) return;

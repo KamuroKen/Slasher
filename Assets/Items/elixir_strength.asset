@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec585e755c244349a351a20e3e9712b, type: 3}
+  m_Name: elixir_strength
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  id: elixir_strength
+  category: 2
+  rarity: 2
+  displayName: Elixir of Strength
+  description: Burns all the way down. For a moment the sword feels lighter - and
+    then it simply stays that way.
+  icon: {fileID: 2099964774, guid: 98d8e78c42981a649ac22737e7ec51b6, type: 3}
+  maxStack: 5
+  healing: 0
+  maxHealthBonus: 0
+  damageBonus: 2
+  useCooldown: 0.5

@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ecda876dadc34439e9500c3e4a72fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
-  maxHealth: 150
+  maxHealth: 200
   invulnerabilityDuration: 0
   currentHealth: 0
 --- !u!114 &436226133021338899

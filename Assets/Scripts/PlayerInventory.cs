@@ -113,11 +113,23 @@ public sealed class PlayerInventory : MonoBehaviour
 
     public bool Use(ItemDefinition item, Damageable health)
     {
-        if (item == null || health == null || item.category != ItemCategory.Consumable) return false;
-        if (Count(item) == 0 || CooldownRemaining > 0f || !health.TryHeal(item.healing)) return false;
+        if (item == null || health == null || Count(item) == 0 || CooldownRemaining > 0f) return false;
+        if (item.category == ItemCategory.Consumable) { if (!health.TryHeal(item.healing)) return false; }
+        else if (item.category == ItemCategory.Elixir) ApplyBonus(item, health);
+        else return false;
         cooldownDuration = item.useCooldown;
         cooldownUntil = Time.time + item.useCooldown;
         return Remove(item, 1) == 1;
+    }
+
+    // Permanent max HP and damage bonus of an elixir or an altar offering.
+    public void ApplyBonus(ItemDefinition item, Damageable health)
+    {
+        if (item == null) return;
+        if (health != null) health.IncreaseMaxHealth(item.maxHealthBonus);
+        var attack = GetComponentInChildren<PlayerAttack>();
+        if (attack == null) attack = FindFirstObjectByType<PlayerAttack>();
+        if (attack != null && item.damageBonus > 0) attack.AddDamage(item.damageBonus);
     }
 
     public void Clear()

@@ -20,6 +20,9 @@ public sealed class PlayerAttack : MonoBehaviour
     private Vector2 direction;
     private float elapsed;
     public bool IsAttacking { get; private set; }
+    public int SwordDamage => swordDamage;
+    // Permanent growth from elixirs and the altar.
+    public void AddDamage(int amount) => swordDamage = Mathf.Max(1, swordDamage + amount);
     private Vector2 SwordCenter => (Vector2)transform.position + Vector2.up * 0.3f + direction * swordReach;
 
     private void Awake()

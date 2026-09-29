@@ -43,10 +43,14 @@ public sealed class CombatVerificationRunner : MonoBehaviour
 {
     const string Report="Library/CombatVerification.txt";
     Keyboard keyboard;
+    InputSettings.EditorInputBehaviorInPlayMode previousInputBehavior;
     double deadline;
     void Awake()
     {
         deadline = EditorApplication.timeSinceStartup + 60;
+        // The virtual keyboard must reach the game even if the Game view is not focused.
+        previousInputBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
+        InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
         EditorApplication.update += Watchdog;
     }
     void Watchdog()
@@ -59,6 +63,7 @@ public sealed class CombatVerificationRunner : MonoBehaviour
     {
         EditorApplication.update -= Watchdog;
         if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
+        InputSystem.settings.editorInputBehaviorInPlayMode = previousInputBehavior;
     }
     IEnumerator Start()
     {
@@ -116,8 +121,10 @@ public sealed class CombatVerificationRunner : MonoBehaviour
         for(int swing=0;swing<3;swing++)
         {
             pb.position=Vector2.zero; bb.position=new Vector2(1.2f,0); bb.linearVelocity=Vector2.zero;
-            Keys(Key.Space); yield return null; Keys();
-            yield return new WaitForSeconds(.42f);
+            // Hold the key for several frames: a one-frame press can be missed at very high editor frame rates.
+            Keys(Key.Space); yield return new WaitForSeconds(.05f); bool swingStarted=attack.IsAttacking; Keys();
+            yield return new WaitForSeconds(.37f);
+            if(bh.CurrentHealth!=40-swing*20) File.AppendAllText(Report,$"DIAG hp={bh.CurrentHealth} bat={bat.State} batPos={bb.position} player={pb.position} playerHP={ph.Health.CurrentHealth} swingStarted={swingStarted} blocked={PlayerUI.GameplayBlocked} pointerOverUI={(UnityEngine.EventSystems.EventSystem.current!=null && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())}\n");
             Check(bh.CurrentHealth==40-swing*20,"Sword swing "+(swing+1)+" deals exactly 20 damage");
             if(swing<2) Check(batFlashed,"Bat hit flashes white");
             else Check(bat.State==EnemyController.BehaviourState.Dead && !bb.simulated && !bat.GetComponent<Collider2D>().enabled,"Third sword hit starts death and disables enemy collision");

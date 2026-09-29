@@ -9,28 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: kt_brazier
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -1977974390, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 1
-  m_ColliderType: 0
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -1977974390, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: 576873265601705579, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: -2595798708107270489, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: -1237106176, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: 1356897566, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: -514068377, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: 443188875, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  - {fileID: 438357251, guid: 95cfc6b74e496174b98c204fa3fb53eb, type: 3}
+  m_MinSpeed: 9
+  m_MaxSpeed: 11
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

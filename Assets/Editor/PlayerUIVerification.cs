@@ -28,7 +28,11 @@ public static class PlayerUIVerification
     static async void StateChanged(PlayModeStateChange state)
     {
         if (state != PlayModeStateChange.EnteredPlayMode || !SessionState.GetBool("PlayerUIVerification", false)) return;
-        SessionState.EraseBool("PlayerUIVerification"); Keyboard keyboard = null; ItemDefinition item = null, key = null; Sprite icon = null;
+        SessionState.EraseBool("PlayerUIVerification"); Keyboard keyboard = null;
+        // The virtual keyboard must reach the game even if the Game view is not focused.
+        var previousInputBehavior = InputSystem.settings.editorInputBehaviorInPlayMode;
+        InputSystem.settings.editorInputBehaviorInPlayMode = InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+        ItemDefinition item = null, key = null; Sprite icon = null;
         try
         {
             await Task.Delay(300);
@@ -85,6 +89,7 @@ public static class PlayerUIVerification
         finally
         {
             if (keyboard != null && keyboard.added) InputSystem.RemoveDevice(keyboard);
+            InputSystem.settings.editorInputBehaviorInPlayMode = previousInputBehavior;
             if (item != null) UnityEngine.Object.Destroy(item);
             if (key != null) UnityEngine.Object.Destroy(key);
             if (icon != null) UnityEngine.Object.Destroy(icon);

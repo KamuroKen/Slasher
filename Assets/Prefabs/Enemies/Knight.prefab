@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6398234558008794593}
   - component: {fileID: 6501535328138198197}
   - component: {fileID: 3484689596294256710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,13 +225,37 @@ MonoBehaviour:
   detectionRadius: 6
   loseTargetRadius: 8
   moveSpeed: 2
-  attackDistance: 0.95
-  hitDistance: 1.2
+  boundaryInset: 0.5
+  requireLineOfSight: 1
+  sightBlockers:
+    serializedVersion: 2
+    m_Bits: 256
+  sightCheckInterval: 0.15
+  searchSeconds: 2
+  alertRadius: 4
+  obstacles:
+    serializedVersion: 2
+    m_Bits: 257
+  lookAhead: 0.8
+  steeringDirections: 16
+  steeringInterval: 0.1
+  allies:
+    serializedVersion: 2
+    m_Bits: 1024
+  separationRadius: 1
+  separationStrength: 1.5
+  attackReach: 0.3
+  hitReach: 0.55
   attackDamage: 20
+  attackCooldown: 1
+  hitMoment: 0.43
+  poise: 1
+  poiseResetSeconds: 2
+  armoredWhileAttacking: 1
+  counterDelay: 0.25
+  knockbackSpeed: 2
+  useClipTimings: 1
   windupSeconds: 0.3
   attackSeconds: 0.7
-  attackCooldown: 1
   hitStunSeconds: 0.33333334
-  knockbackSpeed: 2
   deathSeconds: 1.3
-  boundaryInset: 0.5

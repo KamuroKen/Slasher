@@ -165,17 +165,14 @@ MonoBehaviour:
   framesPerSecond: 10
   doorRenderer: {fileID: 8864165929171663227}
   lintelRenderer: {fileID: 5914937908906205431}
-  lintelPixels: 16
+  lintelPixels: 22
   doorTilemap: {fileID: 0}
   doorCell: {x: 0, y: 0, z: 0}
   blocker: {fileID: 5798634305771008931}
   reach: 0.75
   prompt: {fileID: 967484438591865777}
+  actionLabel: Open
   usedMessageSeconds: 1.5
-  disableOnOpen: []
-  opened:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &2497601039698132165
 GameObject:
   m_ObjectHideFlags: 0

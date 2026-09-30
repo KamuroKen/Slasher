@@ -340,7 +340,7 @@ MonoBehaviour:
   attackReach: 0.3
   hitReach: 0.55
   attackDamage: 10
-  attackCooldown: 1
+  attackCooldown: 0.8
   hitMoment: 0.43
   poise: 0
   poiseResetSeconds: 2

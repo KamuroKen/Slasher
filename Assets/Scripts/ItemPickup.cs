@@ -11,9 +11,6 @@ public sealed class ItemPickup : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Vector3 restPosition;
 
-    public ItemDefinition Item => item;
-    public int Count => count;
-
     public static ItemPickup Spawn(ItemDefinition item, int count, Vector3 position, int sortingOrder = 5)
     {
         var go = new GameObject("Pickup " + (item != null ? item.displayName : "?"));

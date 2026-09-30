@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   detectionRadius: 6
   loseTargetRadius: 8
-  moveSpeed: 1.84
+  moveSpeed: 2
   boundaryInset: 0.5
   requireLineOfSight: 1
   sightBlockers:
@@ -249,7 +249,7 @@ MonoBehaviour:
   attackReach: 0.3
   hitReach: 0.55
   attackDamage: 20
-  attackCooldown: 1.2
+  attackCooldown: 1
   hitMoment: 0.43
   poise: 2
   poiseResetSeconds: 2

@@ -131,12 +131,4 @@ public sealed class PlayerInventory : MonoBehaviour
         if (attack == null) attack = FindFirstObjectByType<PlayerAttack>();
         if (attack != null && item.damageBonus > 0) attack.AddDamage(item.damageBonus);
     }
-
-    public void Clear()
-    {
-        for (int i = 0; i < Capacity; i++) slots[i] = null;
-        for (int i = 0; i < QuickCapacity; i++) quick[i] = null;
-        cooldownUntil = cooldownDuration = 0f;
-        Changed?.Invoke();
-    }
 }

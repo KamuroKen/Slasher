@@ -1,7 +1,6 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
@@ -40,10 +39,6 @@ public sealed class KeyDoor : MonoBehaviour
     [SerializeField] private string actionLabel = "Open";
     [SerializeField, Min(0f)] private float usedMessageSeconds = 1.5f;
 
-    [Tooltip("Objects to switch off when the door opens.")]
-    [SerializeField] private GameObject[] disableOnOpen = new GameObject[0];
-    [SerializeField] private UnityEvent opened = new UnityEvent();
-
     private InputAction interact;
     private PlayerInventory player;
     private Collider2D playerCollider;
@@ -51,7 +46,6 @@ public sealed class KeyDoor : MonoBehaviour
     private InteractPrompt hint;
 
     public bool IsOpen { get; private set; }
-    public ItemDefinition RequiredKey => requiredKey;
     // Raised once the opening animation has finished and the passage is free.
     public event System.Action Opened;
 
@@ -192,8 +186,6 @@ public sealed class KeyDoor : MonoBehaviour
             if (doorRenderer != null && frames[i] != null) doorRenderer.sprite = frames[i];
         }
         if (blocker != null) blocker.enabled = false;
-        foreach (var target in disableOnOpen) if (target != null) target.SetActive(false);
-        opened.Invoke();
         Opened?.Invoke();
     }
 

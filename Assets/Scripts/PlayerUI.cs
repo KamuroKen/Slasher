@@ -49,7 +49,6 @@ public sealed class PlayerUI : MonoBehaviour
     static void ResetStatics() { Instance = null; blockedThroughFrame = -1; skipMainMenuOnce = false; }
     static bool Pauses(Screen screen) => screen != Screen.Gameplay && screen != Screen.Inventory;
     Transform Find(string n) => GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == n);
-    public InventorySlotView SlotView(int index) => views != null && index >= 0 && index < views.Length ? views[index] : null;
     void Awake()
     {
         Instance = this;

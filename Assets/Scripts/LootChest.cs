@@ -22,8 +22,6 @@ public sealed class LootChest : MonoBehaviour
     [Header("Use")]
     [Tooltip("How close the player must stand to the chest to open it.")]
     [SerializeField, Min(0.1f)] private float reach = 0.75f;
-    [Tooltip("Open by walking into the chest instead of pressing E.")]
-    [SerializeField] private bool openOnTouch;
     [SerializeField] private TMP_Text prompt;
 
     [Header("Loot")]
@@ -53,7 +51,7 @@ public sealed class LootChest : MonoBehaviour
 
     private void Update()
     {
-        if (IsOpen || openOnTouch || !FindPlayer()) { hint.Update(); return; }
+        if (IsOpen || !FindPlayer()) { hint.Update(); return; }
         if (PlayerUI.GameplayBlocked || !InReach()) { hint.Hide(); return; }
         hint.Show("[E] Open");
         if (interact.WasPressedThisFrame()) Open();
@@ -79,14 +77,6 @@ public sealed class LootChest : MonoBehaviour
             if (distance.isValid) return distance.distance <= reach;
         }
         return Vector2.Distance(player.transform.position, transform.position) <= reach + 0.5f;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) => TouchOpen(other);
-    private void OnCollisionEnter2D(Collision2D collision) => TouchOpen(collision.collider);
-
-    private void TouchOpen(Collider2D other)
-    {
-        if (openOnTouch && !IsOpen && other.GetComponentInParent<PlayerInventory>() != null) Open();
     }
 
     public void Open()
